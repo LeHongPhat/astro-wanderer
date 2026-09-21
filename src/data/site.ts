@@ -43,7 +43,7 @@ export const site = {
    *  `icon` is any name from src/components/Icon.astro */
   socials: {
     facebook: { url: 'https://www.facebook.com/le.hongphat.773/', label: 'FaceBook', icon: 'facebook' },
-    linkedin: { url: 'https://www.linkedin.com', label: 'LinkedIn', icon: 'linkedin' },
+    linkedin: { url: 'https://www.linkedin.com/in/phat-le-hong/', label: 'LinkedIn', icon: 'linkedin' },
     email: { url: 'mailto:lehongphat2009@gmail.com', label: 'Email', icon: 'email' },
   } satisfies Record<string, SocialLink>,
 };

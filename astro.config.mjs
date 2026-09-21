@@ -5,6 +5,5 @@ import sitemap from '@astrojs/sitemap';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://lehongphat.com',
-  base: '/astro-wanderer',   // <-- Tạm thời thêm lại dòng này
   integrations: [sitemap()],
 });
