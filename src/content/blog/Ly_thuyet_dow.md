@@ -37,7 +37,7 @@ Xác định hướng đi của thị trường là yếu tố sống còn:
 - Trong đà Tăng (Cấp 1): sẽ có những nhịp giảm điều chỉnh (Cấp 2).
 - Trong đà Giảm (Cấp 1): sẽ có những nhịp tăng hồi phục (Cấp 2).
 
-> **Nguyên tắc Vàng:** CHỈ GIAO DỊCH THUẬN THEO XU THẾ CẤP 1. Tuyệt đối không giao dịch ngược sóng (bắt đỉnh/đáy ở sóng C2).
+> **Nguyên tắc Vàng:** CHỈ GIAO DỊCH THUẬN THEO XU THẾ CẤP 1. Tuyệt đối không giao dịch ngược xu hướng cấp 1 (bắt đỉnh/đáy ở sóng C2).
 
 ## II. Cấu Trúc Thị Trường Theo Dow
 
@@ -52,13 +52,13 @@ Là xu hướng chính của thị trường.
 
 Là nhịp đi ngược chiều Cấp 1. Trong uptrend, Cấp 2 là nhịp giảm. Đặc điểm:
 
-- Thường thoái lui 38.2% – 61.8% của sóng C1 gần nhất (liên kết với chương Fibonacci).
-- Không phá vỡ điểm khởi đầu của sóng C1 trước đó.
-- Thời gian thường ngắn hơn sóng C1.
+- Thường thoái lui 38.2% – 61.8% của C1 gần nhất (liên kết với chương Fibonacci).
+- Không phá vỡ điểm khởi đầu của C1 trước đó.
+- Thời gian thường ngắn hơn C1.
 
 ### 3. Điều kiện để xu hướng cấp 1 (c1) hợp lệ
 
-Không phải mọi nhịp tăng đều là C1. Một sóng C1 chỉ hợp lệ khi:
+Không phải mọi nhịp tăng đều là C1. Một C1 chỉ hợp lệ khi:
 
 1. Phá được đỉnh/đáy gần nhất trước đó (BOS – xem mục III.3).
 2. Có động lượng rõ: nến thân dài, độ dốc cao, ít rút chân.
@@ -66,7 +66,7 @@ Không phải mọi nhịp tăng đều là C1. Một sóng C1 chỉ hợp lệ 
 
 ### 4. Điều kiện để xu hướng cấp 2 (c2) còn hiệu lực
 
-Một sóng điều chỉnh chỉ còn được coi là C2 khi:
+Một nhịp điều chỉnh chỉ còn được coi là C2 khi:
 
 1. Không phá vỡ điểm khởi đầu của C1.
 2. Thoái lui không nên quá 78.6% của C1.
@@ -74,14 +74,14 @@ Một sóng điều chỉnh chỉ còn được coi là C2 khi:
 
 Nếu vi phạm bất kỳ điều kiện nào → cấu trúc thất bại, không còn là C2. Lúc này cần đứng ngoài và chờ cấu trúc mới hình thành.
 
-![Cấu trúc sóng C1 và C2 cho đà tăng (uptrend)](/img/blog/dow_uptrend_two_breaks_confirmation_v3.svg)
-![Cấu trúc sóng C1 và C2 cho đà giảm (downtrend)](/img/blog/dow_downtrend_two_breaks_confirmation.svg)
+![Cấu trúc C1 và C2 cho đà tăng (uptrend)](/img/blog/dow_uptrend_two_breaks_confirmation_v3.svg)
+![Cấu trúc C1 và C2 cho đà giảm (downtrend)](/img/blog/dow_downtrend_two_breaks_confirmation.svg)
  
 ## III. Mô Hình "1-2-1" Và Cách Xác Nhận Xu Hướng
 
 Để biết khi nào xu hướng Cấp 1 tiếp diễn, chúng ta sử dụng mô hình cấu trúc 1-2-1:
 
-C1 (đẩy) → C2 (điều chỉnh) → Sóng C1 mới phá cản C1 cũ
+C1 (đẩy) → C2 (điều chỉnh) → C1 mới phá cản C1 cũ
 
 | Loại xu hướng | Bước 1 — C1 | Bước 2 — C2 | Bước 3 — Xác nhận phá cản |
 | :--- | :--- | :--- | :--- |
