@@ -25,14 +25,14 @@ Thay vì đi sâu vào 6 nguyên tắc nguyên bản, trader giao dịch ngắn 
 - **Hành động:** Tập trung 100% vào hành vi giá (Price Action) trên biểu đồ thay vì bị nhiễu loạn bởi tin tức bên ngoài. Tin tức chỉ quan trọng ở chỗ nó tạo ra biến động giá – và biến động đó đã hiện trên chart.
 - **Lưu ý intraday:** Trong ngày có tin lớn (CPI, FOMC, NFP), giá có thể phá vỡ mọi cấu trúc kỹ thuật trong vài giây. Nguyên tắc "giá phản ánh tất cả" đúng về dài hạn, nhưng trong khoảnh khắc tin ra, cấu trúc bị vô hiệu. Day trader nên tránh giao dịch trong 5–15 phút quanh tin lớn.
 
-### 2. Thị Trường Luôn Tồn Tại 2 Xu Hướng Chính
+### 2. Thị Trường Luôn Tồn Tại 2 Xu Hướng
 
 Xác định hướng đi của thị trường là yếu tố sống còn:
 
 | Loại xu hướng | Bản chất | Đặc điểm |
 | :--- | :--- | :--- |
-| **Xu hướng Cấp 1 (Primary Trend)** | Sóng ĐẨY | Là xu hướng CHÍNH của thị trường (đang tăng hoặc đang giảm) |
-| **Xu hướng Cấp 2 (Secondary Trend)** | Sóng ĐIỀU CHỈNH | Luôn đi NGƯỢC LẠI xu hướng Cấp 1 |
+| **Xu hướng Cấp 1 (Primary Trend)** | NHỊP CHÍNH | Là xu hướng CHÍNH của thị trường (đang tăng hoặc đang giảm) |
+| **Xu hướng Cấp 2 (Secondary Trend)** | NHỊP ĐIỀU CHỈNH | Luôn đi NGƯỢC LẠI xu hướng Cấp 1 |
 
 - Trong đà Tăng (Cấp 1): sẽ có những nhịp giảm điều chỉnh (Cấp 2).
 - Trong đà Giảm (Cấp 1): sẽ có những nhịp tăng hồi phục (Cấp 2).
@@ -110,7 +110,7 @@ CHOCH (Change of Character) xảy ra khi giá phá đỉnh/đáy ngược chiề
 
 **Phân biệt nhanh:**
 - BOS = phá cản tiếp diễn xu hướng → theo trend.
-- CHoCH = phá cản đảo chiều xu hướng → cảnh báo đối trend.
+- CHoCH = phá cản đảo chiều xu hướng → cảnh báo sự thay đổi của cấu trúc.
 
 ![Bos và CHoCH](/img/blog/dow_uptrend_bos_then_choch_break_higher_low_v2.svg)
 
@@ -121,7 +121,7 @@ Cấu trúc thất bại xảy ra khi nhịp điều chỉnh C2 đi quá sâu, p
 **Dấu hiệu:**
 - C2 thoái lui > 78.6% của C1.
 - C2 phá vỡ điểm khởi đầu của C1.
-- Xuất hiện CHoCH ngược chiều.
+- Xuất hiện CHoCH.
 
 **Hành động:** Đứng ngoài quan sát. Giá có thể đã hoàn thành một chu kỳ tăng/giảm và đang bắt đầu chu kỳ mới. Không cố "bắt" cấu trúc cũ.
 
@@ -149,7 +149,7 @@ Không chỉ nhìn vào một khung thời gian.
 
 | Kịch bản | Entry | Stop-loss | Take-profit |
 | :--- | :--- | :--- | :--- |
-| **BOS + Retest** | Tại nến xác nhận retest thành công | Dưới đáy C2 (hoặc dưới vùng cản vừa phá) | Vùng cản kế tiếp, R:R tối thiểu 1:2 |
+| **BOS + Retest** | Tại nến xác nhận retest thành công | Dưới đáy C2 | Vùng cản kế tiếp, R:R tối thiểu 1:1 |
 | **CHoCH** | Chờ BOS theo hướng mới | Trên đỉnh / dưới đáy của cấu trúc mới | Vùng cản đối diện |
 
 
