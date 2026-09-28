@@ -112,7 +112,7 @@ CHOCH (Change of Character) xảy ra khi giá phá đỉnh/đáy ngược chiề
 - BOS = phá cản tiếp diễn xu hướng → theo trend.
 - CHoCH = phá cản đảo chiều xu hướng → cảnh báo đối trend.
 
-<!-- Hình ảnh minh họa Change of Character (CHOCH) -->
+![Bos và CHoCH](/img/blog/dow_uptrend_bos_then_choch_break_higher_low_v2.svg)
 
 ### III.5. Failure of Structure — Khi nào cấu trúc vô hiệu
 
