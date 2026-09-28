@@ -110,10 +110,9 @@ Trendline là đường thẳng nối các đỉnh hoặc đáy liên tiếp c�
 - Với intraday, các mức như .00, .50 của giá, hoặc các mốc tròn của chỉ số (ví dụ VN-Index 1,200) thường có phản ứng rõ.
 
 **Ví dụ:**
-- EURUSD: 1.1000, 1.1050, 1.1100.
-- XAUUSD: 2000, 2050, 2100.
+- XAUUSD: 3500, 4000, 5000.
 - BTCUSD: 50,000, 60,000, 70,000.
-- VN-Index: 1,200, 1,250, 1,300.
+- VN-Index: 1,500, 1,800, 2000.
 
 > **Lưu ý:** Round number không đứng một mình. Nó chỉ đáng tin khi trùng với vùng cản ngang, trendline, hoặc EMA.
 
@@ -145,7 +144,7 @@ Không phải vùng cản nào cũng đáng giao dịch. Trước khi vào lện
 | **Khung thời gian hình thành** | H1 / H4 / Daily | M1 / M5 |
 | **Bối cảnh xu hướng** | Cùng chiều xu hướng chính | Ngược xu hướng, sideway |
 
-> **Nguyên tắc:** Chỉ giao dịch tại vùng cản đạt tối thiểu **3/6 tiêu chí**. Vùng đạt 5–6 tiêu chí là vùng A+, nên ưu tiên size lớn hơn.
+> **Nguyên tắc:** Chỉ giao dịch tại vùng cản đạt tối thiểu **3/5 tiêu chí**.
 
 ## V. Đảo Chiều Vai Trò (Role Reversal)
 
@@ -184,11 +183,6 @@ Tại vùng cản, giá chỉ có 2 kịch bản: **Bounce** hoặc **Breakout**
 | **Momentum** | Mạnh, liên tục | Yếu, do dự |
 | **Retest** | Giữ được vai trò mới | Quay lại vùng cũ |
 
-**Cách giao dịch an toàn:**
-- Không đuổi breakout. Chờ retest để vào lệnh với R:R tốt hơn.
-- Entry tại lần retest đầu tiên, khi giá quay lại vùng cản vừa phá và xác nhận đảo chiều vai trò.
-- SL đặt bên trong vùng cản vừa phá.
-- TP theo measured move hoặc vùng cản kế tiếp.
 
 ### 6.3. Tại sao ưu tiên Retest hơn việc chậy theo Breakout?
 
