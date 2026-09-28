@@ -39,7 +39,7 @@ Vùng cản không chỉ là các đường ngang cố định, mà còn là cá
 | :--- | :--- | :--- | :--- |
 | 1 | Vùng cản ngang (Horizontal S/R) | Tĩnh | Cao |
 | 2 | Cản theo Trendline | Động | Trung bình – cao |
-| 3 | Cản động (MA, EMA, VWAP) | Động | Trung bình – cao |
+| 3 | Cản động (MA, EMA) | Động | Trung bình – cao |
 | 4 | Mức giá tâm lý (Round Numbers) | Tâm lý | Trung bình |
 
 ### 1. Vùng cản ngang (Horizontal S/R)
@@ -89,7 +89,7 @@ Trendline là đường thẳng nối các đỉnh hoặc đáy liên tiếp c�
 
 *Nhắc lại: Trendline là công cụ chủ quan — mỗi trader có thể vẽ khác nhau. Vì vậy, trendline chỉ đáng tin khi trùng với vùng cản ngang, EMA, hoặc Fibonacci.*
 
-### 3. Cản động — MA, EMA, VWAP
+### 3. Cản động — MA, EMA
 
 **Đường trung bình động (MA, EMA)**
 - MA/EMA là vùng cản chạy theo giá — di chuyển cùng xu hướng.
@@ -128,8 +128,8 @@ Trong intraday, nguyên tắc là: **xác định vùng cản trên H1/H4, tìm 
 | :--- | :--- | :--- | :--- | :--- |
 | Vùng cản ngang | Tĩnh | Nối swing high/low | Cao | Tất cả |
 | Trendline | Động | Nối đỉnh/đáy cao dần hoặc thấp dần | Trung bình – cao | Vùng cản ngang, EMA, Fib |
-| MA/EMA/VWAP | Động | Đường trung bình giá | Trung bình – cao | Vùng cản ngang, Fib |
-| Round Numbers | Tâm lý | Mức số tròn | Trung bình | Vùng cản ngang, EMA, VWAP |
+| MA/EMA | Động | Đường trung bình giá | Trung bình – cao | Vùng cản ngang, Fib |
+| Round Numbers | Tâm lý | Mức số tròn | Trung bình | Vùng cản ngang, EMA |
 
 > **Nguyên tắc vàng:** Không có phương pháp nào đứng một mình. **Confluence** (nhiều phương pháp cùng chỉ về một vùng) là chìa khóa của xác suất.
 
