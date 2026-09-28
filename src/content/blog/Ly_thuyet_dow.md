@@ -86,9 +86,9 @@ Sóng C1 (đẩy) → Sóng C2 (điều chỉnh) → Sóng C1 mới phá cản C
 | Loại xu hướng | Bước 1 — Sóng C1 | Bước 2 — Sóng C2 | Bước 3 — Xác nhận phá cản |
 | :--- | :--- | :--- | :--- |
 | **TĂNG (Uptrend)** | Nhịp tăng giá đẩy | Nhịp giảm điều chỉnh | Giá bứt phá vượt đỉnh cũ của C1 → tạo Higher High |
-| **GIẢM** | Nhịp giảm giá | Nhịp tăng hồi | Giá đâm thủng đáy cũ của C1 → tạo Lower Low |
+| **GIẢM (Downtrend)** | Nhịp giảm giá | Nhịp tăng hồi | Giá đâm thủng đáy cũ của C1 → tạo Lower Low |
 
-### III.3. BOS — Phá cản tiếp diễn xu hướng
+### 1. BOS — Phá cản tiếp diễn xu hướng
 
 BOS (Break of Structure) xảy ra khi giá phá đỉnh/đáy cùng chiều xu hướng hiện tại.
 
@@ -99,7 +99,7 @@ BOS (Break of Structure) xảy ra khi giá phá đỉnh/đáy cùng chiều xu h
 
 <!-- Hình ảnh minh họa Break of Structure (BOS) -->
 
-### III.4. CHOCH — Đảo chiều cấu trúc
+### 2. CHOCH — Đảo chiều cấu trúc
 
 CHOCH (Change of Character) xảy ra khi giá phá đỉnh/đáy ngược chiều xu hướng hiện tại.
 
@@ -114,7 +114,7 @@ CHOCH (Change of Character) xảy ra khi giá phá đỉnh/đáy ngược chiề
 
 ![Bos và CHoCH](/img/blog/dow_uptrend_bos_then_choch_break_higher_low_v2.svg)
 
-### III.5. Failure of Structure — Khi nào cấu trúc vô hiệu
+### 3. Failure of Structure — Khi nào cấu trúc vô hiệu
 
 Cấu trúc thất bại xảy ra khi nhịp điều chỉnh C2 đi quá sâu, phá vỡ cấu trúc 1-2 đã hình thành.
 
@@ -150,21 +150,16 @@ Không chỉ nhìn vào một khung thời gian.
 | Kịch bản | Entry | Stop-loss | Take-profit |
 | :--- | :--- | :--- | :--- |
 | **BOS + Retest** | Tại nến xác nhận retest thành công | Dưới đáy C2 (hoặc dưới vùng cản vừa phá) | Vùng cản kế tiếp, R:R tối thiểu 1:2 |
-| **BOS + Breakout** | Khi nến đóng cửa phá cản | Dưới đáy nến breakout | Measured move hoặc vùng cản kế tiếp |
 | **CHoCH** | Chờ BOS theo hướng mới | Trên đỉnh / dưới đáy của cấu trúc mới | Vùng cản đối diện |
 
-**Quản lý lệnh:**
-- Khi giá đi được 1R → dời SL về hòa vốn.
-- Khi giá đi được 2R → trailing theo đáy/đỉnh gần nhất (M5/M15).
 
 ### 4. Quản Trị FOMO — Tiêu Chí Cụ Thể
 
 Khi sóng C1 đang lao lên quá dốc, tuyệt đối không Mua đuổi (đu đỉnh). Hãy kiên nhẫn chờ đợi sóng C2 hoàn thành để có vùng giá chiết khấu tốt nhất.
 
 **Khi nào được coi là "quá dốc"?**
-- 3+ nến tăng liên tiếp không có nhịp điều chỉnh.
 - RSI > 70 (quá mua) trên khung vào lệnh.
-- Giá cách EMA 34 quá xa (ví dụ > 2 ATR).
+- Giá cách EMA 34 quá xa.
 
 **Khi đó phải làm gì?**
 1. Không mua đuổi.
@@ -174,7 +169,7 @@ Khi sóng C1 đang lao lên quá dốc, tuyệt đối không Mua đuổi (đu �
 
 ## V. Liên Kết Với Vùng Cản (Chương 1)
 
-Điểm phá cản trong mô hình 1-2-1 chỉ đáng tin khi vùng cản bị phá đạt tối thiểu 3/6 tiêu chí chất lượng ở chương 1:
+Điểm phá cản trong mô hình 1-2-1 chỉ đáng tin khi vùng cản bị phá đạt tối thiểu 3 tiêu chí chất lượng ở chương 1:
 
 1. Có ít nhất 2 lần test trước đó.
 2. Nền phản ứng rõ ràng (thân dài, rời vùng dứt khoát).
