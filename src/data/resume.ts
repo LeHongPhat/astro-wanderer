@@ -75,7 +75,7 @@ export const skillGroups: SkillGroup[] = [
   },
   {
     title: 'Interests',
-    skills: ['Problem Solving', 'Value Selling', 'Trading'],
+    skills: ['Problem Solving', 'Value Selling', 'Financial', 'Trading'],
   },
 ];
 
