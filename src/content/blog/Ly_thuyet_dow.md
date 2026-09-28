@@ -180,17 +180,15 @@ Khi C1 đang lao lên quá dốc, tuyệt đối không Mua đuổi (đu đỉnh
 
 Nếu vùng cản yếu → xác suất false breakout cao → nên bỏ qua hoặc chờ retest.
 
-## VI. Lỗi Thường Gặp & Bài Tập
-
-### Lỗi thường gặp
+## VI. Lỗi Thường Gặp 
 
 1. Vào lệnh khi nến chưa đóng cửa → dính fakeout.
 2. Nhầm BOS với CHoCH → vào lệnh ngược trend.
 3. Bỏ qua khung thời gian lớn → giao dịch ngược xu hướng Cấp 1.
 4. Mua đuổi khi C1 đã đi quá dốc → dính điều chỉnh sâu.
 5. Không chấp nhận Failure of Structure → cố "bắt" cấu trúc cũ.
-6. Đặt SL quá gần → bị quét trước khi giá đi đúng hướng.
-7. Giao dịch trong range market mà tưởng là trend → 1-2-1 liên tục thất bại.
+6. Đặt SL sai → bị quét trước khi giá đi đúng hướng.
+7. Giao dịch trong lúc thị trường sideway mà tưởng là trend → 1-2-1 liên tục thất bại.
 
 ---
 
