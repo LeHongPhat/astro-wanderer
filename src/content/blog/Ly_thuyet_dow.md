@@ -77,9 +77,9 @@ Nếu vi phạm bất kỳ điều kiện nào → cấu trúc thất bại, kh�
 ![Cấu trúc C1 và C2 cho đà tăng (uptrend)](/img/blog/dow_uptrend_two_breaks_confirmation_v3.svg)
 ![Cấu trúc C1 và C2 cho đà giảm (downtrend)](/img/blog/dow_downtrend_two_breaks_confirmation.svg)
  
-## III. Mô Hình "1-2-1" Và Cách Xác Nhận Xu Hướng
+## III. Cấu trúc "1-2-1" Và Cách Xác Nhận Xu Hướng
 
-Để biết khi nào xu hướng Cấp 1 tiếp diễn, chúng ta sử dụng mô hình cấu trúc 1-2-1:
+Để biết khi nào xu hướng Cấp 1 tiếp diễn, chúng ta sử dụng cấu trúc 1-2-1:
 
 C1 (đẩy) → C2 (điều chỉnh) → C1 mới phá cản C1 cũ
 
@@ -170,13 +170,11 @@ Khi C1 đang lao lên quá dốc, tuyệt đối không Mua đuổi (đu đỉnh
 
 ## V. Liên Kết Với Vùng Cản (Chương 1)
 
-Điểm phá cản trong mô hình 1-2-1 chỉ đáng tin khi vùng cản bị phá đạt tối thiểu 3 tiêu chí chất lượng ở chương 1:
+Điểm phá cản trong cấu trúc 1-2-1 theo Dow chỉ đáng tin khi vùng cản bị phá đạt tối thiểu 3 tiêu chí chất lượng ở chương 1:
 
 1. Có ít nhất 2 lần kiểm tra (test) trước đó.
-2. Nền phản ứng rõ ràng (thân dài, rời vùng dứt khoát).
-3. Có confluence (EMA, Fib).
-4. Được hình thành trên khung H1 trở lên.
-5. Cùng chiều xu hướng Cấp 1 trên các khung thời gian lớn như H1, H4, D1.
+2. Nến phản ứng rõ ràng (thân dài, rời vùng dứt khoát).
+3. Cùng chiều xu hướng Cấp 1 trên các khung thời gian lớn như H1, H4, D1.
 
 Nếu vùng cản yếu → xác suất false breakout cao → nên bỏ qua hoặc chờ retest.
 
