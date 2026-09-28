@@ -8,7 +8,6 @@ description: "Chương 2 hướng dẫn cách đọc cấu trúc thị trường
 draft: false
 ---
 
-# Lý Thuyết Dow Ứng Dụng Trong Giao Dịch
 
 ## Mở Đầu
 
