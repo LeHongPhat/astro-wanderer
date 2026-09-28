@@ -2,7 +2,6 @@
 title: "Lý Thuyết Dow Ứng Dụng Trong Giao Dịch"
 subtitle: "Chương 2 – Đọc cấu trúc thị trường để tìm điểm vào lệnh"
 date: "2026-09-28"
-tags: ["dowtheory", "trading", "priceaction", "dautu", "taichinh"]
 category: "trading"
 description: "Chương 2 hướng dẫn cách đọc cấu trúc thị trường theo Lý thuyết Dow để tìm điểm vào lệnh tối ưu trong giao dịch ngắn hạn."
 draft: false
