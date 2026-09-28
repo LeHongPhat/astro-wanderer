@@ -56,7 +56,7 @@ Là nhịp đi ngược chiều Cấp 1. Trong uptrend, Cấp 2 là nhịp giả
 - Không phá vỡ điểm khởi đầu của sóng C1 trước đó.
 - Thời gian thường ngắn hơn sóng C1.
 
-### 3. Điều kiện để một sóng C1 hợp lệ
+### 3. Điều kiện để xu hướng cấp 1 (c1) hợp lệ
 
 Không phải mọi nhịp tăng đều là C1. Một sóng C1 chỉ hợp lệ khi:
 
@@ -64,12 +64,12 @@ Không phải mọi nhịp tăng đều là C1. Một sóng C1 chỉ hợp lệ 
 2. Có động lượng rõ: nến thân dài, độ dốc cao, ít rút chân.
 3. Có ít nhất một nhịp điều chỉnh nhỏ bên trong — nếu là nhịp đơn thuần, chưa đủ cấu trúc.
 
-### 4. Điều kiện để sóng C2 còn hiệu lực
+### 4. Điều kiện để xu hướng cấp 2 (c2) còn hiệu lực
 
 Một sóng điều chỉnh chỉ còn được coi là C2 khi:
 
 1. Không phá vỡ điểm khởi đầu của C1.
-2. Thoái lui không quá 78.6% của C1.
+2. Thoái lui không nên quá 78.6% của C1.
 3. Không tạo cấu trúc đảo chiều (CHOCH – xem mục III.4).
 
 Nếu vi phạm bất kỳ điều kiện nào → cấu trúc thất bại, không còn là C2. Lúc này cần đứng ngoài và chờ cấu trúc mới hình thành.
@@ -81,9 +81,9 @@ Nếu vi phạm bất kỳ điều kiện nào → cấu trúc thất bại, kh�
 
 Để biết khi nào xu hướng Cấp 1 tiếp diễn, chúng ta sử dụng mô hình cấu trúc 1-2-1:
 
-Sóng C1 (đẩy) → Sóng C2 (điều chỉnh) → Sóng C1 mới phá cản C1 cũ
+C1 (đẩy) → C2 (điều chỉnh) → Sóng C1 mới phá cản C1 cũ
 
-| Loại xu hướng | Bước 1 — Sóng C1 | Bước 2 — Sóng C2 | Bước 3 — Xác nhận phá cản |
+| Loại xu hướng | Bước 1 — C1 | Bước 2 — C2 | Bước 3 — Xác nhận phá cản |
 | :--- | :--- | :--- | :--- |
 | **TĂNG (Uptrend)** | Nhịp tăng giá đẩy | Nhịp giảm điều chỉnh | Giá bứt phá vượt đỉnh cũ của C1 → tạo Higher High |
 | **GIẢM (Downtrend)** | Nhịp giảm giá | Nhịp tăng hồi | Giá đâm thủng đáy cũ của C1 → tạo Lower Low |
@@ -134,7 +134,7 @@ Cấu trúc thất bại xảy ra khi nhịp điều chỉnh C2 đi quá sâu, p
 ### 1. Lọc Bẫy Giá (Fakeout / Bull Trap / Bear Trap)
 
 - **Chờ nến đóng cửa:** Tuyệt đối không vào lệnh khi nến đang chạy. Bắt buộc chờ thân nến đóng cửa xuyên thủng hoàn toàn vùng đỉnh/đáy C1.
-- **Điều kiện phá cản (Breakout):** Cần giá đóng cửa / đóng nến phá hẳn qua đỉnh/đáy cũ của sóng C1 (thân nến vượt qua hẳn, không chỉ wick).
+- **Điều kiện phá cản (Breakout):** Cần giá đóng cửa / đóng nến phá hẳn qua đỉnh/đáy cũ của C1 (thân nến vượt qua hẳn, không chỉ râu nến).
 - **Xác nhận bổ sung:** Nên kết hợp RSI, hoặc MACD để lọc bẫy.
 
 ### 2. Phân Tích Đa Khung Thời Gian (Top-Down Analysis)
@@ -155,7 +155,7 @@ Không chỉ nhìn vào một khung thời gian.
 
 ### 4. Quản Trị FOMO — Tiêu Chí Cụ Thể
 
-Khi sóng C1 đang lao lên quá dốc, tuyệt đối không Mua đuổi (đu đỉnh). Hãy kiên nhẫn chờ đợi sóng C2 hoàn thành để có vùng giá chiết khấu tốt nhất.
+Khi C1 đang lao lên quá dốc, tuyệt đối không Mua đuổi (đu đỉnh). Hãy kiên nhẫn chờ đợi C2 hoàn thành để có vùng giá chiết khấu tốt nhất.
 
 **Khi nào được coi là "quá dốc"?**
 - RSI > 70 (quá mua) trên khung vào lệnh.
@@ -163,19 +163,20 @@ Khi sóng C1 đang lao lên quá dốc, tuyệt đối không Mua đuổi (đu �
 
 **Khi đó phải làm gì?**
 1. Không mua đuổi.
-2. Chờ sóng C2 với điều kiện: thoái lui 38.2–61.8%, có nến xác nhận, có confluence với EMA / Fib / vùng cản.
+2. Chờ C2 xuất hiện, thị trường luôn có 2 xu hướng và xu hướng cấp 2 chắc chắn sẽ xuất hiện.
 3. Nếu C2 không đến và giá tiếp tục chạy → đứng ngoài. Cơ hội luôn có, vốn thì không.
-4. Nếu C2 đến nhưng quá sâu (> 78.6%) → cấu trúc thất bại, không vào lệnh.
+4. Nếu C2 đến nhưng quá sâu (> 78.6%) → cấu trúc có thể thất bại. Nếu tiếp tục tăng, có thể không phá được đỉnh C1 trước đó.
+5. Nếu C2 thoát lui quá 100% C1, tạo CHoCH đảo chiều. Hãy đứng ngoài
 
 ## V. Liên Kết Với Vùng Cản (Chương 1)
 
 Điểm phá cản trong mô hình 1-2-1 chỉ đáng tin khi vùng cản bị phá đạt tối thiểu 3 tiêu chí chất lượng ở chương 1:
 
-1. Có ít nhất 2 lần test trước đó.
+1. Có ít nhất 2 lần kiểm tra (test) trước đó.
 2. Nền phản ứng rõ ràng (thân dài, rời vùng dứt khoát).
 3. Có confluence (EMA, Fib).
 4. Được hình thành trên khung H1 trở lên.
-5. Cùng chiều xu hướng Cấp 1.
+5. Cùng chiều xu hướng Cấp 1 trên các khung thời gian lớn như H1, H4, D1.
 
 Nếu vùng cản yếu → xác suất false breakout cao → nên bỏ qua hoặc chờ retest.
 
@@ -193,4 +194,4 @@ Nếu vùng cản yếu → xác suất false breakout cao → nên bỏ qua ho�
 
 ---
 
-**Chuyển chương:** Sau khi nắm vững cấu trúc thị trường theo Dow, chương tiếp theo sẽ đi vào Fibonacci — công cụ đo lường nhịp điều chỉnh C2 và xác định vùng vào lệnh tối ưu trong sóng C1.
+**Chuyển chương:** Sau khi nắm vững cấu trúc thị trường theo Dow, chương tiếp theo sẽ đi vào Fibonacci — công cụ đo lường nhịp điều chỉnh C2 và xác định điểm chốt lời nhạy cảm.
