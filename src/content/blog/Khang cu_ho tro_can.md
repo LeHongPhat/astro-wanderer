@@ -54,6 +54,7 @@ Vùng cản không chỉ là các đường ngang cố định, mà còn là cá
 3. Ưu tiên vùng được hình thành trên khung H1/H4/Daily.
 
 > **Lưu ý intraday:** Vùng cản ngang là nền tảng — mọi phương pháp khác đều xoay quanh nó. Không có vùng cản ngang → các vùng động và mức tâm lý mất đi điểm neo.
+
 ![Vùng Kháng cự và hỗ trợ ngang](/img/blog/horizontal_support_resistance_zones.svg)
 
 ### 2. Cản theo Trendline (Đường xu hướng)
