@@ -12,9 +12,9 @@ const blog = defineCollection({
     updated: z.coerce.date().optional(),
     tags: z.array(z.string()).default([]),
     coverImage: z.string().optional(),
-    category: z.enum(['tech', 'life']).default('tech'),
+    category: z.enum(['tech','trading', 'life']).default('trading'),
     author: z.string().default('Rowan Hale'),
-    mathjax: z.boolean().default(false),
+    mathjax: z.boolean().default(false), 
     draft: z.boolean().default(false),
   }),
 });
