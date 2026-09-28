@@ -8,10 +8,6 @@ description: "Chương 1 cung cấp kiến thức nền tảng về Kháng cự 
 draft: false
 ---
 
-# Chương 1: Kháng Cự & Hỗ Trợ (Support & Resistance)
-
-*Nền tảng vùng cản trong giao dịch intraday*
-
 ## I. Định Nghĩa Cơ Bản
 
 Kháng cự (Resistance) và Hỗ trợ (Support) là hai khái niệm cơ bản nhất trong Phân tích Kỹ thuật (TA). Chúng hình thành dựa trên sự tập trung của Cung và Cầu (Supply and Demand) tại các mức giá cụ thể.
