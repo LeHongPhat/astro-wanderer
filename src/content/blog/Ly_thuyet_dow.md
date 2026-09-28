@@ -1,6 +1,6 @@
 ---
-title: "Lý Thuyết Dow Ứng Dụng Trong Giao Dịch"
-subtitle: "Chương 2 – Đọc cấu trúc thị trường để tìm điểm vào lệnh"
+title: "Chương 2: Lý Thuyết Dow Ứng Dụng Trong Giao Dịch"
+subtitle: "Đọc cấu trúc thị trường để tìm ra xu hướng"
 date: "2026-09-28"
 author: "Phat Le"
 category: "trading"
@@ -186,7 +186,7 @@ Nếu vùng cản yếu → xác suất false breakout cao → nên bỏ qua ho�
 4. Mua đuổi khi C1 đã đi quá dốc → dính điều chỉnh sâu.
 5. Không chấp nhận Failure of Structure → cố "bắt" cấu trúc cũ.
 6. Đặt SL sai → bị quét trước khi giá đi đúng hướng.
-7. Giao dịch trong lúc thị trường sideway mà tưởng là trend → 1-2-1 liên tục thất bại.
+7. Giao dịch trong lúc thị trường sideway mà tưởng là thị trường có xu hướng → 1-2-1 liên tục thất bại.
 
 ---
 
