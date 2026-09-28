@@ -74,8 +74,9 @@ Một sóng điều chỉnh chỉ còn được coi là C2 khi:
 
 Nếu vi phạm bất kỳ điều kiện nào → cấu trúc thất bại, không còn là C2. Lúc này cần đứng ngoài và chờ cấu trúc mới hình thành.
 
-<!-- Hình ảnh minh họa cấu trúc sóng C1, C2 -->
-
+![Cấu trúc sóng C1 và C2 cho đà tăng (uptrend)](/img/blog/dow_uptrend_two_breaks_confirmation_v3.svg)
+![Cấu trúc sóng C1 và C2 cho đà giảm (downtrend)](/img/blog/dow_downtrend_two_breaks_confirmation.svg)
+ 
 ## III. Mô Hình "1-2-1" Và Cách Xác Nhận Xu Hướng
 
 Để biết khi nào xu hướng Cấp 1 tiếp diễn, chúng ta sử dụng mô hình cấu trúc 1-2-1:
