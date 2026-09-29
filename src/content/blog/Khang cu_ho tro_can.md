@@ -202,7 +202,7 @@ Giá phá vỡ vùng cản, tiếp tục xu hướng chính hoặc khởi đầu
 | **Retest** | Giữ được vai trò mới | Quay lại vùng cũ |
 
 
-### 6.3. Tại sao ưu tiên Retest hơn việc chậy theo Breakout?
+### 6.3. Tại sao ưu tiên Retest hơn việc chạy theo Breakout?
 
 - R:R tốt hơn (SL gần hơn, entry tốt hơn).
 - Xác suất cao hơn nhờ Role Reversal đã được xác nhận.
@@ -219,6 +219,8 @@ Lý thuyết "Kháng cự thì bán, Hỗ trợ thì mua" dễ tạo ra tư duy 
 - Trong một đà tăng, các mức kháng cự mới liên tục hình thành — bán ở kháng cự là bán ngược trend.
 - Trong một đà giảm, các mức hỗ trợ mới liên tục hình thành — mua ở hỗ trợ là mua ngược trend.
 - Kháng cự có thể thành hỗ trợ và ngược lại bất cứ lúc nào.
+
+ ![Cản liên tục bị phá vỡ khi thị trường có xu hướng](/img/blog/new_resistance_uptrend_new_support_downtrend_v3.svg)
 
 Gọi là "cản" giúp trader không còn tư duy "chặn đầu" thị trường, mà chuyển sang tư duy "chờ phản ứng tại vùng".
 
