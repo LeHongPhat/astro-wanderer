@@ -166,12 +166,12 @@ Tại vùng cản, giá chỉ có 2 kịch bản: **Bounce** hoặc **Breakout**
 
 ### 6.1. Bounce — Giá tôn trọng vùng cản
 
-**Giá tôn trọng vùng cản, sau khi tiếp cận vùng cản thì đảo chiều.**
+Giá tôn trọng vùng cản, sau khi tiếp cận vùng cản thì đảo chiều.
 ![Bounce](/img/blog/bounce_support_zone_built_by_two_touches_v2.svg)
 
 ### 6.2. Breakout — Giá xuyên thủng vùng cản
 
-**Giá phá vỡ vùng cản, tiếp tục xu hướng chính hoặc khởi đầu cho một xu hướng mới.**
+Giá phá vỡ vùng cản, tiếp tục xu hướng chính hoặc khởi đầu cho một xu hướng mới.
 ![Breakout](/img/blog/breakout_support_zone_at_third_approach.svg)
 
 
