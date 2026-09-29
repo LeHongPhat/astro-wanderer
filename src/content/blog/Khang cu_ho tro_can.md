@@ -69,13 +69,13 @@ Trendline là đường thẳng nối các đỉnh hoặc đáy liên tiếp c�
   1. Nối ít nhất 2 đáy cao dần.
   2. Kéo dài về phía trước.
   3. Điểm chạm thứ 3 xác nhận trendline có hiệu lực.
-![Trendline downtrend](/img/blog/downtrend_trendline_lower_highs.svg)
+  ![Trendline uptrend](/img/blog/uptrend_trendline_higher_lows.svg)
 
 - **Trong downtrend:**
   1. Nối ít nhất 2 đỉnh thấp dần.
   2. Kéo dài về phía trước.
   3. Điểm chạm thứ 3 xác nhận trendline có hiệu lực.
-  ![Trendline uptrend](/img/blog/uptrend_trendline_higher_lows.svg)
+  ![Trendline downtrend](/img/blog/downtrend_trendline_lower_highs.svg)
 
 > **Nguyên tắc:** Chọn cách vẽ nào cho nhiều điểm chạm nhất — đó là trendline có giá trị.
 > **Lưu ý:** Phá trendline không phải tín hiệu đảo chiều. Nó chỉ là cảnh báo sớm. Cần xác nhận bằng CHoCH (chương 2) trước khi chuyển hướng giao dịch.
