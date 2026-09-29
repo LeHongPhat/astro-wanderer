@@ -8,8 +8,6 @@ description: "Lời mở đầu cho giáo trình Phân tích Kỹ thuật: nhấ
 draft: false
 ---
 
-# Lời Mở Đầu
-
 Tôi viết giáo trình Phân tích Kỹ thuật này với một mong muốn duy nhất: hi vọng rằng nó thể giúp các bạn có một hướng tiếp cận bài bản và logic ngay từ đầu — hoặc khi tìm hiểu một hệ thống giao dịch mới.
 
 Thị trường tài chính không thiếu tài liệu. Nhưng phần lớn trong số đó hoặc quá hàn lâm, hoặc quá rời rạc. Người mới thường học từng chỉ báo riêng lẻ, rồi ráp lại với nhau mà không hiểu bản chất — và cuối cùng thất bại không phải vì thiếu kiến thức, mà vì thiếu một khung tư duy đúng.
