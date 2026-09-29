@@ -7,6 +7,20 @@ category: "trading"
 description: "Chương 1 cung cấp kiến thức nền tảng về Kháng cự và Hỗ trợ (Vùng cản), cách xác định, đánh giá chất lượng và các kịch bản giao dịch intraday hiệu quả."
 draft: false
 ---
+## Key Takeaways — Bạn sẽ nhận được gì sau chương này?
+
+Sau khi đọc và nắm vững chương 1, bạn sẽ:
+
+| # | Nội dung | Ứng dụng thực chiến |
+| :--- | :--- | :--- |
+| 1 | Hiểu bản chất của Kháng cự – Hỗ trợ, và vì sao gọi là "vùng cản" | Tư duy đúng ngay từ đầu — không bắt đỉnh/đáy |
+| 2 | Nắm được tâm lý thị trường đằng sau vùng cản | Hiểu vì sao giá phản ứng tại một vùng — không còn mê tín |
+| 3 | Biết 4 phương pháp xác định vùng cản: ngang, trendline, động (MA/EMA), tâm lý | Xác định được vùng cản trên bất kỳ chart nào |
+| 4 | Biết cách đánh giá chất lượng vùng cản | Biết vùng nào đáng giao dịch, vùng nào nên bỏ qua |
+| 5 | Hiểu nguyên tắc Đảo chiều vai trò (Role Reversal) | Nhận diện cơ hội khi Kháng cự thành Hỗ trợ và ngược lại |
+| 6 | Nắm 2 kịch bản giao dịch tại vùng cản: Bounce và Breakout | Chuẩn bị cho cả hai — để thị trường xác nhận |
+
+> **Kết quả cốt lõi:** Sau chương này, bạn có khả năng tự xác định vùng cản chất lượng cao trên biểu đồ phân tích kỹ thuật — nền tảng cho mọi quyết định vào lệnh ở các chương sau.
 
 ## I. Định Nghĩa Cơ Bản
 
@@ -38,19 +52,20 @@ Vùng cản không chỉ là các đường ngang cố định, mà còn là cá
 | # | Phương pháp | Loại | Độ tin cậy |
 | :--- | :--- | :--- | :--- |
 | 1 | Vùng cản ngang (Horizontal S/R) | Tĩnh | Cao |
-| 2 | Cản theo Trendline | Động | Trung bình – cao |
+| 2 | Cản theo Trendline | Tĩnh | Trung bình – cao |
 | 3 | Cản động (MA, EMA) | Động | Trung bình – cao |
-| 4 | Mức giá tâm lý (Round Numbers) | Tâm lý | Trung bình |
+| 4 | Mức giá tâm lý (Round Numbers) | Tĩnh | Trung bình |
 
 ### 1. Vùng cản ngang (Horizontal S/R)
 
-- Được vẽ từ các swing high / swing low trong quá khứ.
+- Kháng cự được xây dựng từ các đỉnh trong quá khứ. 
+- Hỗ trợ được xây dựng từ các đáy trong quá khứ.
 - Có giá trị cao khi giá đã phản ứng ít nhất 2 lần tại vùng đó.
-- Nên vẽ theo vùng (khoảng giá), không vẽ theo một nến đơn lẻ.
+- Nên vẽ theo vùng (khoảng giá), không vẽ theo một đường kẻ ngang đơn lẻ.
 
 **Cách xác định:**
 1. Tìm các đỉnh/đáy rõ ràng trên chart.
-2. Nối các đỉnh/đáy nằm gần nhau thành một vùng (không phải một đường).
+2. Nối các đỉnh với nhau hoặc các đáy với nhau nằm gần nhau thành một vùng (không phải một đường).
 3. Ưu tiên vùng được hình thành trên khung H1/H4/Daily.
 
 > **Lưu ý intraday:** Vùng cản ngang là nền tảng — mọi phương pháp khác đều xoay quanh nó. Không có vùng cản ngang → các vùng động và mức tâm lý mất đi điểm neo.
@@ -60,7 +75,7 @@ Vùng cản không chỉ là các đường ngang cố định, mà còn là cá
 ### 2. Cản theo Trendline (Đường xu hướng)
 
 **2.1. Trendline là gì?**
-Trendline là đường thẳng nối các đỉnh hoặc đáy liên tiếp của giá, dùng để mô tả hướng đi của xu hướng và đóng vai trò vùng cản động.
+Trendline là đường **chéo** nối các đỉnh hoặc đáy liên tiếp của giá, dùng để mô tả hướng đi của xu hướng và đóng vai trò vùng cản động.
 - Trong uptrend: Trendline nối các đáy cao dần (Higher Lows) → đóng vai trò hỗ trợ động.
 - Trong downtrend: Trendline nối các đỉnh thấp dần (Lower Highs) → đóng vai trò kháng cự động.
 
@@ -85,11 +100,14 @@ Trendline là đường thẳng nối các đỉnh hoặc đáy liên tiếp c�
 - Vẽ trendline quá dốc — dễ bị phá, không đáng tin.
 - Ép trendline theo ý muốn — vẽ để khớp với quan điểm cá nhân.
 - Nhầm phá trendline với đảo chiều — chưa có CHoCH xác nhận.
-- Không kiểm tra confluence — trendline đứng một mình.
+- Không kêt hợp nhiều yếu tố — trendline đứng một mình.
 
 *Nhắc lại: Trendline là công cụ chủ quan — mỗi trader có thể vẽ khác nhau. Vì vậy, trendline chỉ đáng tin khi trùng với vùng cản ngang, EMA, hoặc Fibonacci.*
 
 ### 3. Cản động — MA, EMA
+** Cản động là gì?**
+- Là vùng cản thay đổi theo sự biến động giá của từng cây nến.
+- Các chỉ báo nào là cản động: các đường Moving Average (MA), dải bollinger band,...
 
 **Đường trung bình động (MA, EMA)**
 - MA/EMA là vùng cản chạy theo giá — di chuyển cùng xu hướng.
@@ -119,7 +137,7 @@ Trendline là đường thẳng nối các đỉnh hoặc đáy liên tiếp c�
 ### 6. Khung thời gian (Time Frame)
 
 Vùng cản xác định trên khung lớn (Weekly / Daily / H4) có ý nghĩa và độ tin cậy cao hơn khung nhỏ (M5, M15).
-Trong intraday, nguyên tắc là: **xác định vùng cản trên H1/H4, tìm điểm vào lệnh trên M5/M15.**
+Trong intraday, nguyên tắc là: **xác định vùng cản trên khung lớn H1/H4, tìm kiếm cơ hội giao dịch trên các khung nhỏ M5/M15/M30.**
 
 ### Bảng tổng hợp 4 phương pháp xác định vùng cản
 
@@ -138,9 +156,9 @@ Không phải vùng cản nào cũng đáng giao dịch. Trước khi vào lện
 
 | Tiêu chí | Vùng mạnh | Vùng yếu |
 | :--- | :--- | :--- |
-| **Số lần test** | 2–3 lần, phản ứng rõ ràng | 1 lần, phản ứng yếu |
+| **Số lần phản ứng** | 2–3 lần, phản ứng rõ ràng | 1 lần, phản ứng yếu |
 | **Nến phản ứng** | Thân dài, rời vùng dứt khoát | Nến do dự, sideway, chồng chéo |
-| **Confluence** | Trùng EMA / Fib / Trendline | Đứng một mình |
+| **Sự kết hợp nhiều yếu tố** | Trùng EMA / Fib / Trendline | Đứng một mình |
 | **Khung thời gian hình thành** | H1 / H4 / Daily | M1 / M5 |
 | **Bối cảnh xu hướng** | Cùng chiều xu hướng chính | Ngược xu hướng, sideway |
 
@@ -215,7 +233,7 @@ Gọi là "cản" giúp trader không còn tư duy "chặn đầu" thị trườ
 2. Vào lệnh ngay khi giá chạm vùng, không chờ nến xác nhận.
 3. Đuổi breakout không có volume xác nhận.
 4. Đặt SL giữa vùng cản → dễ bị quét.
-5. Không kiểm tra confluence với EMA / Trendline
+5. Không kết hợp nhiều yếu tố.
 6. Cố bắt đỉnh/đáy tại mọi vùng cản, kể cả vùng yếu.
 7. Vẽ trendline quá dốc hoặc qua quá ít điểm chạm.
 8. Nhầm phá trendline với đảo chiều — chưa có CHoCH, BoS xác nhận.
