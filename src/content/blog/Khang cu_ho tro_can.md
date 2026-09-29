@@ -76,8 +76,8 @@ Vùng cản không chỉ là các đường ngang cố định, mà còn là cá
 
 **2.1. Trendline là gì?**
 Trendline là đường **chéo** nối các đỉnh hoặc đáy liên tiếp của giá, dùng để mô tả hướng đi của xu hướng và đóng vai trò vùng cản động.
-- Trong uptrend: Trendline nối các đáy cao dần (Higher Lows) → đóng vai trò hỗ trợ động.
-- Trong downtrend: Trendline nối các đỉnh thấp dần (Lower Highs) → đóng vai trò kháng cự động.
+- Trong uptrend: Trendline nối các đáy cao dần (Higher Lows) → đóng vai trò hỗ trợ.
+- Trong downtrend: Trendline nối các đỉnh thấp dần (Lower Highs) → đóng vai trò kháng cự.
 
 **2.2. Cách vẽ đúng**
 - **Trong uptrend:**
@@ -144,9 +144,9 @@ Trong intraday, nguyên tắc là: **xác định vùng cản trên khung lớn 
 | Phương pháp | Loại | Cách xác định | Độ tin cậy | Kết hợp với |
 | :--- | :--- | :--- | :--- | :--- |
 | Vùng cản ngang | Tĩnh | Nối swing high/low | Cao | Tất cả |
-| Trendline | Động | Nối đỉnh/đáy cao dần hoặc thấp dần | Trung bình – cao | Vùng cản ngang, EMA, Fib |
+| Trendline | Tĩnh | Nối đỉnh/đáy cao dần hoặc thấp dần | Trung bình – cao | Vùng cản ngang, EMA, Fib |
 | MA/EMA | Động | Đường trung bình giá | Trung bình – cao | Vùng cản ngang, Fib |
-| Round Numbers | Tâm lý | Mức số tròn | Trung bình | Vùng cản ngang, EMA |
+| Round Numbers | Tĩnh | Mức số tròn | Trung bình | Vùng cản ngang, EMA |
 
 > **Nguyên tắc vàng:** Không có phương pháp nào đứng một mình. **Confluence** (nhiều phương pháp cùng chỉ về một vùng) là chìa khóa của xác suất.
 
