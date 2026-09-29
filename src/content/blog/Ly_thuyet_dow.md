@@ -13,7 +13,24 @@ draft: false
 
 Lý thuyết Dow (bởi Charles H. Dow) là nền tảng tư tưởng cho mọi phương pháp phân tích kỹ thuật hiện đại. Đối với một Day Trader, việc nắm vững Lý thuyết Dow không nằm ở học thuật, mà ở khả năng đọc hiểu cấu trúc thị trường để tìm ra điểm vào lệnh có xác suất thắng cao nhất.
 
-Chương này không nhằm dạy lại 6 nguyên tắc nguyên bản của Dow. Chúng ta chỉ giữ những gì thực sự dùng được trong intraday, và gắn nó với vùng cản đã học ở chương 1.
+Chương này không nhằm dạy lại 6 nguyên tắc nguyên bản của Dow. Chúng ta chỉ giữ những gì thực sự dùng được trong giao dịch, và gắn nó với vùng cản đã học ở chương 1.
+
+## Key Takeaways — Bạn sẽ nhận được gì sau chương này?
+
+Sau khi đọc và nắm vững chương 2, bạn sẽ:
+
+| # | Nội dung | Ứng dụng thực chiến |
+| :--- | :--- | :--- |
+| 1 | Hiểu 2 nguyên tắc cốt lõi của Lý thuyết Dow | Tư duy đúng: giá phản ánh tất cả, thị trường luôn có xu hướng chính và xu hướng điều chỉnh |
+| 2 | Phân biệt được Xu hướng Cấp 1 (C1) và Xu hướng Cấp 2 (C2) | Biết đâu là sóng đẩy, đâu là sóng điều chỉnh |
+| 3 | Nắm điều kiện để C1 hợp lệ và điều kiện để C2 còn hiệu lực | Không nhầm C2 với đảo chiều |
+| 4 | Hiểu cấu trúc 1-2-1 và cách xác nhận xu hướng | Biết khi nào xu hướng tiếp diễn, khi nào đảo chiều |
+| 5 | Phân biệt BOS (Break of Structure) và CHoCH (Change of Character) | Nhận diện sớm tín hiệu tiếp diễn và đảo chiều cấu trúc |
+| 6 | Hiểu Failure of Structure — khi nào cấu trúc vô hiệu | Biết dừng lại khi cấu trúc thất bại, không cố "bắt" cấu trúc cũ |
+| 7 | Nắm Top-Down Analysis — phân tích đa khung thời gian | Xác định xu hướng trên H1/H4, tìm điểm vào trên M5/M15 |
+| 8 | Hiểu mối liên kết với vùng cản (chương 1) | Điểm phá cản chỉ đáng tin khi vùng cản đạt chất lượng |
+
+> **Kết quả cốt lõi:** Sau chương này, bạn có khả năng đọc hiểu cấu trúc thị trường — biết giá đang ở đâu trong chu kỳ, đâu là C1, đâu là C2, và khi nào cấu trúc đảo chiều. Đây là nền tảng để kết hợp với các công cụ ở các chương sau.
 
 ## I. Các Nguyên Tắc Cốt Lõi (Trọng Tâm Thực Chiến)
 
@@ -97,6 +114,7 @@ BOS (Break of Structure) xảy ra khi giá phá đỉnh/đáy cùng chiều xu h
 
 **Hành động:** Có thể vào lệnh theo hướng BOS, ưu tiên chờ retest để có R:R tốt hơn.
 
+
 <!-- Hình ảnh minh họa Break of Structure (BOS) -->
 
 ### 2. CHOCH — Đảo chiều cấu trúc
@@ -111,6 +129,7 @@ CHOCH (Change of Character) xảy ra khi giá phá đỉnh/đáy ngược chiề
 **Phân biệt nhanh:**
 - BOS = phá cản tiếp diễn xu hướng → xu hướng tiếp tục được duy trì.
 - CHoCH = phá cản đảo chiều xu hướng → cảnh báo sự thay đổi của cấu trúc.
+- Retest = Giá sau khi phá cản -> giá có xu hướng quay lại vùng cản vừa phá -> xu hướng tiếp tục duy trì.
 
 ![Bos và CHoCH](/img/blog/dow_uptrend_bos_then_choch_break_higher_low_v2.svg)
 
