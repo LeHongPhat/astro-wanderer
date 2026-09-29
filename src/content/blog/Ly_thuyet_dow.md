@@ -103,13 +103,13 @@ BOS (Break of Structure) xảy ra khi giá phá đỉnh/đáy cùng chiều xu h
 
 CHOCH (Change of Character) xảy ra khi giá phá đỉnh/đáy ngược chiều xu hướng hiện tại.
 
-- Trong uptrend: giá tạo Lower Low (phá đáy gần nhất) → CHOCH → cảnh báo uptrend có thể kết thúc.
-- Trong downtrend: giá tạo Higher High (phá đỉnh gần nhất) → CHoCH → cảnh báo downtrend có thể kết thúc.
+- Trong uptrend: giá phá Higher Low (phá đáy gần nhất) → CHOCH → cảnh báo uptrend có thể kết thúc.
+- Trong downtrend: giá phá Lower High (phá đỉnh gần nhất) → CHoCH → cảnh báo downtrend có thể kết thúc.
 
 **Hành động:** Không vào lệnh ngay. Chờ xác nhận bằng cấu trúc mới (BOS theo hướng mới) hoặc retest vùng cản.
 
 **Phân biệt nhanh:**
-- BOS = phá cản tiếp diễn xu hướng → theo trend.
+- BOS = phá cản tiếp diễn xu hướng → xu hướng tiếp tục được duy trì.
 - CHoCH = phá cản đảo chiều xu hướng → cảnh báo sự thay đổi của cấu trúc.
 
 ![Bos và CHoCH](/img/blog/dow_uptrend_bos_then_choch_break_higher_low_v2.svg)
