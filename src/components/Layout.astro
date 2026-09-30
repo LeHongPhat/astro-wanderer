@@ -31,7 +31,7 @@ const imageUrl = withBase(image);
 ---
 
 <!doctype html>
-<html lang="en" data-theme="">
+<html lang="en" data-theme="dark">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -62,9 +62,9 @@ const imageUrl = withBase(image);
 
     <!-- Theme: set before paint to avoid flash -->
     <script is:inline>
-      const t = localStorage.getItem('theme');
-      const dark = t ? t === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
-      document.documentElement.dataset.theme = dark ? 'dark' : 'light';
+      const t = localStorage.getItem('theme') || 'dark';
+document.documentElement.dataset.theme = t;
+
     </script>
 
     {jsonLd && <script type="application/ld+json" is:inline set:html={JSON.stringify(jsonLd)} />}
