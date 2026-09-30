@@ -69,7 +69,7 @@ Là xu hướng chính của thị trường.
 
 Là nhịp đi ngược chiều Cấp 1. Trong uptrend, Cấp 2 là nhịp giảm. Đặc điểm:
 
-- Thường thoái lui 38.2% – 61.8% của C1 gần nhất (liên kết với chương Fibonacci).
+- Thường thoái lui 38.2% – 61.8% của C1 gần nhất (giới thiệu ở chương Fibonacci).
 - Không phá vỡ điểm khởi đầu của C1 trước đó.
 - Thời gian thường ngắn hơn C1.
 
@@ -86,7 +86,7 @@ Không phải mọi nhịp tăng đều là C1. Một C1 chỉ hợp lệ khi:
 Một nhịp điều chỉnh chỉ còn được coi là C2 khi:
 
 1. Không phá vỡ điểm khởi đầu của C1.
-2. Thoái lui không nên quá 78.6% của C1.
+2. Thoái lui không nên quá 78.6% của C1. (giới thiệu ở chương Fibonacci).
 3. Không tạo cấu trúc đảo chiều (CHOCH – xem mục III.4).
 
 Nếu vi phạm bất kỳ điều kiện nào → cấu trúc thất bại, không còn là C2. Lúc này cần đứng ngoài và chờ cấu trúc mới hình thành.
@@ -138,7 +138,7 @@ CHOCH (Change of Character) xảy ra khi giá phá đỉnh/đáy ngược chiề
 Cấu trúc thất bại xảy ra khi nhịp điều chỉnh C2 đi quá sâu, phá vỡ cấu trúc 1-2 đã hình thành.
 
 **Dấu hiệu:**
-- C2 thoái lui > 78.6% của C1.
+- C2 thoái lui > 78.6% của C1. (giới thiệu ở chương Fibonacci).
 - C2 phá vỡ điểm khởi đầu của C1.
 - Xuất hiện CHoCH.
 
