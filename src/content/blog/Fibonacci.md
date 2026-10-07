@@ -250,4 +250,4 @@ Trong một xu hướng mạnh, sau khi phá đỉnh cũ (BOS), giá có thể �
 
 ---
 
-**Chuyển chương:** Sau khi nắm vững Fibonacci, chương tiếp theo sẽ đi vào **EMA 34 và EMA 89** — công cụ xác định xu hướng và vùng vào lệnh động, kết hợp trực tiếp với Fib Retracement.
+**Chuyển chương:** Sau khi nắm vững Fibonacci, chương tiếp theo sẽ đi vào **EMA 34 và EMA 89** — công cụ xác định xu hướng và vùng vào lệnh tại xu thế cấp 2, kết hợp trực tiếp với Fib Retracement.
