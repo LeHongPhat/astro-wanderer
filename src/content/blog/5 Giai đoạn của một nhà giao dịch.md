@@ -8,13 +8,13 @@ description: "Khám phá 5 giai đoạn mà mọi trader đều phải trải qu
 draft: false
 ---
 
-# Nội dung được lấy ý tưởng và biên soạn từ Jess Tản Mạn - Zet Under
+*Nội dung được lấy ý tưởng và biên soạn từ Jess Tản Mạn - Zet Under*
 
 *Hành trình từ "nai tơ" đến "thành thạo vô thức"*
 
 ## Key Takeaways — Bạn sẽ nhận được gì sau khi đọc bài viết này?
 
-**Kết quả cốt lõi:** Sau bài viết này, bạn sẽ hiểu rằng giao dịch không phải là trò chơi của hệ thống — mà là trò chơi của tâm lý và kỷ luật. Hành trình này không có đường tắt, nhưng có thể rút ngắn nếu bạn hiểu đúng bản chất.
+Sau bài viết này, bạn sẽ hiểu rằng giao dịch không phải là trò chơi của hệ thống — mà là trò chơi của tâm lý và kỷ luật. Hành trình này không có đường tắt, nhưng có thể rút ngắn nếu bạn hiểu đúng bản chất.
 
 ## Mở Đầu
 
