@@ -2,7 +2,7 @@
 title: "Quản Trị Kỳ Vọng: Bí Quyết Để Hạnh Phúc Hơn Trong Công Việc Và Cuộc Sống"
 subtitle: "Kỳ vọng – con dao hai lưỡi ảnh hưởng đến niềm vui và nỗi buồn"
 date: "2024-05-31"
-tag: "life"
+tags: ["life"] 
 author: "Phat Le"
 category: "life"
 description: "Quản trị kỳ vọng là kỹ năng quan trọng giúp bạn hạnh phúc hơn trong công việc và cuộc sống. Bài viết chia sẻ công thức Happiness = Reality - Expectations và 7 bí quyết quản trị kỳ vọng hiệu quả."
