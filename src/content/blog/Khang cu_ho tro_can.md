@@ -95,7 +95,7 @@ Trendline là đường **chéo** nối các đỉnh hoặc đáy liên tiếp c
 > **Nguyên tắc:** Chọn cách vẽ nào cho nhiều điểm chạm nhất — đó là trendline có giá trị.
 > **Lưu ý:** Phá trendline không phải tín hiệu đảo chiều. Nó chỉ là cảnh báo sớm. Cần xác nhận bằng CHoCH (chương 2) trước khi chuyển hướng giao dịch.
 
-**2.5. Lỗi thường gặp với Trendline**
+**2.3. Lỗi thường gặp với Trendline**
 - Vẽ trendline qua quá ít điểm — chỉ 2 điểm chưa đủ xác nhận.
 - Vẽ trendline quá dốc — dễ bị phá, không đáng tin.
 - Ép trendline theo ý muốn — vẽ để khớp với quan điểm cá nhân.
@@ -134,7 +134,7 @@ Trendline là đường **chéo** nối các đỉnh hoặc đáy liên tiếp c
 
 > **Lưu ý:** Round number không đứng một mình. Nó chỉ đáng tin khi trùng với vùng cản ngang, trendline, hoặc EMA.
 
-### 6. Khung thời gian (Time Frame)
+### 5. Khung thời gian (Time Frame)
 
 Vùng cản xác định trên khung lớn (Weekly / Daily / H4) có ý nghĩa và độ tin cậy cao hơn khung nhỏ (M5, M15).
 Trong intraday, nguyên tắc là: **xác định vùng cản trên khung lớn H1/H4, tìm kiếm cơ hội giao dịch trên các khung nhỏ M5/M15/M30.**
