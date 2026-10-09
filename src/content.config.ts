@@ -10,10 +10,11 @@ const blog = defineCollection({
     description: z.string().optional(),
     date: z.coerce.date(),
     updated: z.coerce.date().optional(),
+    order: z.number().optional(),        // ← THÊM DÒNG NÀY
     tags: z.array(z.string()).default([]),
     coverImage: z.string().optional(),
     category: z.enum(['tech','trading', 'life']).default('trading'),
-    author: z.string().default('Rowan Hale'),
+    author: z.string().default('Phat Le'),   // ← Sửa từ 'Rowan Hale' thành 'Phat Le'
     mathjax: z.boolean().default(false), 
     draft: z.boolean().default(false),
   }),
