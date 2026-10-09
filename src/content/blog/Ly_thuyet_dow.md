@@ -2,6 +2,7 @@
 title: "Chương 2: Lý Thuyết Dow Ứng Dụng Trong Giao Dịch"
 subtitle: "Đọc cấu trúc thị trường để tìm ra xu hướng"
 date: "2026-09-28"
+tags: ["trading"]
 author: "Phat Le"
 category: "trading"
 description: "Chương 2 hướng dẫn cách đọc cấu trúc thị trường theo Lý thuyết Dow để tìm điểm vào lệnh tối ưu trong giao dịch ngắn hạn."
