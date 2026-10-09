@@ -9,7 +9,8 @@ description: "Quản trị kỳ vọng là kỹ năng quan trọng giúp bạn h
 draft: false
 ---
 
-![Quan tri ky vong](/img/blog/Quan tri ky vong.jpg)
+![Quan tri ky vong](/img/blog/Quan-tri-ky-vong.jpg)
+
 
 Là một người bán hàng đang “chinh chiến” trong thị trường Digital Agency đầy cạnh tranh, mình đã đi qua không ít thăng trầm. Có lúc mọi thứ tưởng như trong tầm tay, cũng có lúc thất vọng đến mức muốn buông xuôi. Nhưng bài học lớn nhất mình rút ra không chỉ là làm sao bán được nhiều hơn, mà là làm sao **quản trị kỳ vọng** – của bản thân, của khách hàng, của cấp trên và của cả đội ngũ.
 
