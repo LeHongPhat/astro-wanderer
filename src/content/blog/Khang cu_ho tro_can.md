@@ -2,6 +2,8 @@
 title: "Chương 1: Kháng Cự & Hỗ Trợ (Support & Resistance)"
 subtitle: "Nền tảng vùng cản trong phân tích kỹ thuật"
 date: "2026-09-28"
+order: 2  
+tags: ["trading"]
 author: "Phat Le"
 category: "trading"
 description: "Chương 1 cung cấp kiến thức nền tảng về Kháng cự và Hỗ trợ (Vùng cản), cách xác định, đánh giá chất lượng và các kịch bản giao dịch intraday hiệu quả."

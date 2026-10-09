@@ -2,6 +2,8 @@
 title: "Lời Mở Đầu"
 subtitle: "Hành trình trở thành trader kỳ cựu"
 date: "2026-09-29"
+order: 1  
+tags: ["trading"]
 author: "Phat Le"
 category: "trading"
 description: "Lời mở đầu cho giáo trình Phân tích Kỹ thuật: nhấn mạnh vai trò của tư duy, kiên nhẫn, quản lý vốn và quản trị cảm xúc trong giao dịch."

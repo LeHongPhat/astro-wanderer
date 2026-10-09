@@ -2,6 +2,8 @@
 title: "Chương 3: Fibonacci Trong Phân Tích Kỹ Thuật"
 subtitle: "Công cụ đo lường nhịp điều chỉnh và xác định vùng chốt lời"
 date: "2026-10-07"
+order: 4  
+tags: ["trading"]
 author: "Phat Le"
 category: "trading"
 description: "Chương 3 hướng dẫn sử dụng Fibonacci Retracement để đo lực hồi C2 và Fibonacci Extension để xác định vùng chốt lời, kết hợp với vùng cản và cấu trúc."

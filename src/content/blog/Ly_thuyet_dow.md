@@ -2,6 +2,7 @@
 title: "Chương 2: Lý Thuyết Dow Ứng Dụng Trong Giao Dịch"
 subtitle: "Đọc cấu trúc thị trường để tìm ra xu hướng"
 date: "2026-09-28"
+order: 3  
 tags: ["trading"]
 author: "Phat Le"
 category: "trading"

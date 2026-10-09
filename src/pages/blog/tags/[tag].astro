@@ -12,9 +12,14 @@ export async function getStaticPaths() {
 type Props = { tag: string };
 
 const { tag } = Astro.props;
-const posts = (await getCollection('blog', ({ data }) => !data.draft && data.tags.includes(tag))).sort(
-  (a, b) => b.data.date.valueOf() - a.data.date.valueOf(),
-);
+const posts = (await getCollection('blog', ({ data }) => !data.draft && data.tags.includes(tag))).sort((a, b) => {
+  if (a.data.order != null && b.data.order != null) {
+    return a.data.order - b.data.order;
+  }
+  if (a.data.order != null) return -1;
+  if (b.data.order != null) return 1;
+  return b.data.date.valueOf() - a.data.date.valueOf();
+});
 ---
 
 <Layout title={`#${tag}`} description={`Posts tagged #${tag}`}>

@@ -2,6 +2,8 @@
 title: "Các Giai Đoạn Hình Thành Của Một Trader"
 subtitle: "Hành trình từ 'nai tơ' đến 'thành thạo vô thức'"
 date: "2026-10-08"
+order: 5  
+tags: ["trading"]
 author: "Phat Le"
 category: "trading"
 description: "Khám phá 5 giai đoạn mà mọi trader đều phải trải qua, từ không thành thạo vô thức đến thành thạo vô thức. Hiểu rõ hành trình để không mắc kẹt ở giai đoạn 2."
