@@ -41,7 +41,7 @@ Vùng cản không phải là phép màu — nó hoạt động vì tâm lý đ�
 
 - **Self-fulfilling prophecy:** Rất nhiều người tham gia thị trường cùng quan sát một mức giá và thực hiện hành động tương tự (mua/bán/đặt stop), khiến vùng đó thực sự có phản ứng.
 - **Anchoring (Neo giữ tâm lý):** Trader có xu hướng gán ý nghĩa cho các mức giá đã từng xảy ra. Vùng cản cũ trở thành điểm tham chiếu cho quyết định mua bán trong tương lai.
-- **Ký ức giá:** Một vùng mà giá từng phản ứng mạnh sẽ được nhiều trader ghi nhớ. Khi giá quay lại, phản ứng thường lặp lại — ít nhất trong lần test đầu.
+- **Price memory (Ký ức giá):** Một vùng mà giá từng phản ứng mạnh sẽ được nhiều trader ghi nhớ. Khi giá quay lại, phản ứng thường lặp lại — ít nhất trong lần test đầu.
 
 Hiểu được tâm lý này giúp trader không còn coi vùng cản là "đường kẻ vô tri", mà là nơi tập trung quyết định của đám đông.
 
