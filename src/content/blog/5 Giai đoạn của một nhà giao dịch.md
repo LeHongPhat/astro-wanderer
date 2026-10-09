@@ -255,6 +255,6 @@ Giống như lái xe — khi bạn thành thạo, bạn không còn phải nghĩ
 
 > Hành trình của một trader không phải là hành trình đi tìm hệ thống hoàn hảo.
 >
-> Đó là hành trình đi tìm chính mình — tìm ra điểm yếu trong tư duy, trong cảm xúc, trong kỷ luật.
+> Đó là hành trình hiểu rõ chính mình — tìm ra điểm yếu trong tư duy, trong cảm xúc, trong kỷ luật.
 >
 > Và khi bạn tìm thấy — đó là lúc bạn thực sự trở thành trader.
