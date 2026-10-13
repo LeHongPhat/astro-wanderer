@@ -9,7 +9,6 @@ category: "trading"
 description: "Chương 4 hướng dẫn sử dụng EMA 34 và EMA 89 để xác định xu hướng C1, tìm điểm vào lệnh trong C2, và quy trình giao dịch hoàn chỉnh kết hợp với vùng cản và Fibonacci."
 draft: false
 ---
-## Chương 4 — EMA 34 & EMA 89: Xác định xu hướng và tìm điểm vào lệnh
 
 ## Key Takeaways — Bạn sẽ nhận được gì sau chương này?
 
@@ -49,9 +48,9 @@ Trong giáo trình này, chúng ta không dùng MA để phát tín hiệu mua/b
 
 ### 1. MA là gì?
 
-MA là giá trị trung bình của giá trong N phiên gần nhất, được vẽ thành một đường liên tục.
+MA là giá trị trung bình của giá trong N cây nến gần nhất, được vẽ thành một đường liên tục.
 
-- **SMA (Simple Moving Average):** Trung bình cộng đơn giản — mọi phiên có trọng số bằng nhau.
+- **SMA (Simple Moving Average):** Trung bình cộng đơn giản — mọi cây nến có trọng số bằng nhau.
 - **EMA (Exponential Moving Average):** Trung bình có trọng số — những cây nến gần có trọng số cao hơn những cây nến xa.
 
 **Vì sao dùng EMA thay vì SMA trong day trading?**
