@@ -25,8 +25,7 @@ Sau khi đọc và nắm vững chương 5, bạn sẽ:
 | 6 | Phân biệt phân kỳ giảm (Bearish) và phân kỳ tăng (Bullish) | Biết khi nào cảnh báo đảo chiều giảm, khi nào tăng |
 | 7 | Biết trader nên làm gì khi phân kỳ xuất hiện | Không vào lệnh ngay — chờ CHoCH và BOS xác nhận |
 | 8 | Nắm quy trình entry thống nhất khi phân kỳ xuất hiện | Entry tại BOS, SL theo cấu trúc, TP theo vùng cản / Fib |
-| 9 | Hiểu nguyên tắc confluence — RSI chỉ đáng tin khi trùng công cụ khác | Kết hợp RSI với vùng cản, EMA 34/89, Fibonacci, Dow |
-| 10 | Nhận diện lỗi thường gặp khi dùng RSI | Tránh bán ngược trend, tránh vào lệnh khi chưa có xác nhận |
+| 9 | Nhận diện lỗi thường gặp khi dùng RSI | Tránh bán ngược trend, tránh vào lệnh khi chưa có xác nhận |
 
 > **Kết quả cốt lõi:** Sau chương này, bạn có khả năng đọc động lượng thị trường qua RSI và nhận diện cảnh báo đảo chiều sớm qua phân kỳ. RSI là bối cảnh động lượng — không phải tín hiệu mua/bán. Phân kỳ là cảnh báo — không phải tín hiệu vào lệnh. Entry luôn là BOS. SL luôn theo cấu trúc BOS.
 
@@ -231,9 +230,7 @@ Phân kỳ là cảnh báo, không phải xác nhận. Vào lệnh ngay khi th�
 | RSI + vùng cản + EMA 34 + Fib | Rất mạnh | Chờ xác nhận |
 | RSI phân kỳ + CHoCH + vùng cản mạnh | Rất mạnh | Chờ xác nhận |
 
-## VI. Lỗi Thường Gặp & Bài Tập
-
-### Lỗi thường gặp
+## VI. Lỗi Thường Gặp 
 
 1. Bán khi RSI > 70 trong uptrend mạnh — bán ngược trend, lỗ nặng.
 2. Mua khi RSI < 30 trong downtrend mạnh — mua ngược trend, lỗ nặng.
@@ -244,23 +241,9 @@ Phân kỳ là cảnh báo, không phải xác nhận. Vào lệnh ngay khi th�
 7. Phân kỳ xuất hiện nhưng không kiểm tra confluence — phân kỳ yếu, không đáng giao dịch.
 8. Cố giao dịch khi RSI ở vùng trung tính — không có tín hiệu rõ ràng.
 
-### Bài tập
-
-*(Phần bài tập không có trong tài liệu gốc, nhưng bạn có thể thêm vào nếu muốn)*
 
 ## VII. Tóm Tắt Chương
-
-| Mục đích | Công cụ | Cách dùng |
-| :--- | :--- | :--- |
-| Xác nhận động lượng | Vùng quá mua / quá bán | RSI > 70 trong uptrend = trend mạnh, không bán |
-| Cảnh báo đảo chiều sớm | Phân kỳ | Giá và RSI ngược chiều → chờ CHoCH, chờ BOS |
-| Vùng vào lệnh | RSI 40–50 (uptrend) | Kết hợp EMA 34 + Fib |
-| Vùng vào lệnh | RSI 50–60 (downtrend) | Kết hợp EMA 34 + Fib |
-| Entry thống nhất | BOS | Vào lệnh tại điểm breakout BOS sau khi có xác nhận |
-| Stop-loss | Cấu trúc BOS | Dưới đáy/trên đỉnh của cấu trúc BOS |
-| Nguyên tắc | Confluence | RSI chỉ đáng tin khi trùng cấu trúc, vùng cản, EMA |
-
-> **Câu chốt:** RSI không cho bạn biết giá sẽ đi đâu. Nó cho bạn biết động lượng đang mạnh lên hay yếu đi. Phân kỳ là cảnh báo — không phải tín hiệu. Nhiệm vụ của bạn là kết hợp RSI với cấu trúc, vùng cản, và EMA để tìm ra xác suất. Entry luôn là BOS. SL luôn theo cấu trúc BOS.
+RSI không cho bạn biết giá sẽ đi đâu. Nó cho bạn biết động lượng đang mạnh lên hay yếu đi. Phân kỳ là cảnh báo — không phải tín hiệu. Nhiệm vụ của bạn là kết hợp RSI với cấu trúc, vùng cản, và EMA để tìm ra xác suất. Entry luôn là BOS. SL luôn theo cấu trúc BOS.
 
 ---
 
