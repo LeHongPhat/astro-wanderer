@@ -6,10 +6,9 @@ order: 6
 tags: ["trading"]
 author: "Phat Le"
 category: "trading"
-description: "Chương 5 hướng dẫn sử dụng RSI để đọc động lượng thị trường, nhận diện vùng quá mua/quá bán, và phát hiện phân kỳ cảnh báo đảo chiều sớm. Entry luôn là BOS, SL theo cấu trúc."
+description: "Chương 5 hướng dẫn sử dụng RSI để đọc động lượng thị trường, nhận diện vùng quá mua/quá bán, và phát hiện phân kỳ cảnh báo đảo chiều sớm. Entry luôn cần BOS xác nhận, SL theo cấu trúc."
 draft: false
 ---
-
 
 ## Key Takeaways — Bạn sẽ nhận được gì sau chương này?
 
@@ -23,11 +22,11 @@ Sau khi đọc và nắm vững chương 5, bạn sẽ:
 | 4 | Biết điều chỉnh ngưỡng RSI theo bối cảnh thị trường | Linh hoạt theo trend, sideway, tin tức |
 | 5 | Hiểu sự phân kỳ giữa giá và RSI | Nhận diện cảnh báo đảo chiều sớm |
 | 6 | Phân biệt phân kỳ giảm (Bearish) và phân kỳ tăng (Bullish) | Biết khi nào cảnh báo đảo chiều giảm, khi nào tăng |
-| 7 | Biết trader nên làm gì khi phân kỳ xuất hiện | Không vào lệnh ngay — chờ CHoCH và BOS xác nhận |
-| 8 | Nắm quy trình entry thống nhất khi phân kỳ xuất hiện | Entry tại BOS, SL theo cấu trúc, TP theo vùng cản / Fib |
+| 7 | Biết trader nên làm gì khi phân kỳ xuất hiện | Không vào lệnh ngay — chờ CHoCH và BOS xu hướng mới xác nhận |
+| 8 | Nắm quy trình entry thống nhất khi phân kỳ xuất hiện | Entry tại BOS xu hướng mới, SL theo cấu trúc, TP theo vùng cản / Fib Extension |
 | 9 | Nhận diện lỗi thường gặp khi dùng RSI | Tránh bán ngược trend, tránh vào lệnh khi chưa có xác nhận |
 
-> **Kết quả cốt lõi:** Sau chương này, bạn có khả năng đọc động lượng thị trường qua RSI và nhận diện cảnh báo đảo chiều sớm qua phân kỳ. RSI là bối cảnh động lượng — không phải tín hiệu mua/bán. Phân kỳ là cảnh báo — không phải tín hiệu vào lệnh. Entry luôn là BOS. SL luôn theo cấu trúc BOS.
+> **Kết quả cốt lõi:** Sau chương này, bạn có khả năng đọc động lượng thị trường qua RSI và nhận diện cảnh báo đảo chiều sớm qua phân kỳ. RSI là bối cảnh động lượng — không phải tín hiệu mua/bán. Phân kỳ là cảnh báo — không phải tín hiệu vào lệnh. Entry luôn cần BOS xác nhận: BOS vào lệnh khi giao dịch theo C1, BOS xu hướng mới khi giao dịch đảo chiều. SL luôn theo cấu trúc.
 
 ## Mở Đầu
 
@@ -46,19 +45,20 @@ Trong giáo trình này, RSI được dùng cho 2 mục đích duy nhất:
 
 ### 1. Định nghĩa
 
-RSI (Relative Strength Index) là chỉ báo dao động (oscillator) được phát triển bởi J. Welles Wilder, đo tốc độ và sự thay đổi của biến động giá.
+RSI là chỉ báo dao động (oscillator) được phát triển bởi J. Welles Wilder, đo tốc độ và độ lớn của biến động giá.
 
 - RSI dao động từ 0 đến 100.
-- RSI đo tỷ lệ giữa lực tăng và lực giảm trong N phiên gần nhất.
+- RSI đo tỷ lệ giữa lực tăng và lực giảm trong N cây nến gần nhất.
 - RSI càng cao → lực tăng càng mạnh. RSI càng thấp → lực giảm càng mạnh.
 
 ### 2. Công thức (hiểu đơn giản, không cần tính)
 
 `RSI = 100 − (100 / (1 + RS))`
 
-Trong đó RS = Trung bình lực tăng / Trung bình lực giảm trong N phiên.
+Trong đó: RS = Trung bình lực tăng / Trung bình lực giảm trong N cây nến.
 
 Bạn không cần tính RSI bằng tay. Chỉ cần hiểu:
+
 - Khi giá tăng liên tục → RSI tăng.
 - Khi giá giảm liên tục → RSI giảm.
 - Khi giá đi ngang → RSI dao động quanh 50.
@@ -68,9 +68,9 @@ Bạn không cần tính RSI bằng tay. Chỉ cần hiểu:
 | Thông số | Giá trị | Ghi chú |
 | :--- | :--- | :--- |
 | Chu kỳ (Period) | 14 | Mặc định — phù hợp với intraday |
-| Khung thời gian | H1, H4 (xác định), M15, M5 (tìm cấu trúc, vào lệnh) | Cùng khung với EMA 34/89 |
-| Mức quá mua | 70 (có thể điều chỉnh 80 trong trend mạnh) | Ngưỡng bán |
-| Mức quá bán | 30 (có thể điều chỉnh 20 trong trend mạnh) | Ngưỡng mua |
+| Khung thời gian | H1, H4 (xác định xu hướng); M15, M5 (tìm cấu trúc, vào lệnh) | Cùng khung với EMA 34/89 |
+| Mức quá mua | 70 (điều chỉnh lên 80 trong trend mạnh) | Ngưỡng cảnh báo động lượng tăng đã mạnh |
+| Mức quá bán | 30 (điều chỉnh xuống 20 trong trend mạnh) | Ngưỡng cảnh báo động lượng giảm đã mạnh |
 
 > **Lưu ý intraday:** Trong trend mạnh, RSI có thể duy trì > 70 hoặc < 30 trong nhiều giờ. Đừng bán chỉ vì RSI > 70 — đó là lỗi phổ biến nhất của người mới.
 
@@ -81,7 +81,7 @@ Bạn không cần tính RSI bằng tay. Chỉ cần hiểu:
 - **Không phải chỉ báo xu hướng:** RSI chỉ đo động lượng, không đo hướng.
 - **Không dùng một mình:** RSI đứng một mình → tín hiệu nhiễu.
 
-## II. Vùng Quá Mua và Quá Bán
+## II. Vùng Quá Mua Và Quá Bán
 
 ### 1. Định nghĩa
 
@@ -89,28 +89,27 @@ Bạn không cần tính RSI bằng tay. Chỉ cần hiểu:
 | :--- | :--- | :--- | :--- |
 | Quá mua (Overbought) | RSI > 70 | Lực tăng đã mạnh trong thời gian dài — có thể điều chỉnh | Không mua đuổi. Chờ C2 quay về EMA 34/89 |
 | Quá bán (Oversold) | RSI < 30 | Lực giảm đã mạnh trong thời gian dài — có thể hồi | Không bán đuổi. Chờ C2 quay về EMA 34/89 |
-| Trung tính | 30 – 70 | Động lượng cân bằng | Giao dịch theo cấu trúc |
+| Trung tính | 30–70 | Động lượng cân bằng | Giao dịch theo cấu trúc |
 
 ### 2. Sai lầm phổ biến nhất
 
 > "RSI > 70 → Bán. RSI < 30 → Mua."
 
-Đây là sai lầm chết người trong thị trường có xu hướng, đặc biệt khi sóng 5 (theo Elliott Wave) liên tục mở rộng.
+Đây là sai lầm chết người trong thị trường có xu hướng.
 
-**Ví dụ:** Trong một uptrend mạnh, RSI có thể duy trì > 70 trong nhiều cây nến. Nếu bạn bán vì RSI > 70, bạn đang bán ngược trend C1 — vi phạm nguyên tắc vàng của chương 2.
+**Ví dụ:** Trong một uptrend mạnh, RSI có thể duy trì > 70 trong nhiều cây nến. Nếu bạn bán vì RSI > 70, bạn đang bán ngược C1 — vi phạm nguyên tắc vàng của chương 2.
 
-### 3. Cách dùng đúng trong trending market
+### 3. Cách dùng đúng trong thị trường có xu hướng
 
 | Trạng thái | RSI | Hành động đúng |
 | :--- | :--- | :--- |
-| Uptrend mạnh | RSI > 70 | Không bán. Chờ C2 quay về EMA 34 + RSI về 40–50 → Mua |
-| Uptrend mạnh | RSI 40–50 | Vùng mua lý tưởng (C2 lành mạnh) |
-| Downtrend mạnh | RSI < 30 | Không mua. Chờ C2 quay về EMA 34 + RSI về 50–60 → Bán |
-| Downtrend mạnh | RSI 50–60 | Vùng bán lý tưởng (C2 lành mạnh) |
-| Sideway | RSI > 70 | Có thể bán tại kháng cự |
-| Sideway | RSI < 30 | Có thể mua tại hỗ trợ |
+| Uptrend mạnh | RSI > 70 | Không bán. Chờ C2 quay về EMA 34 + RSI về 40–50 → chờ BOS vào lệnh → Mua |
+| Uptrend mạnh | RSI 40–50 | Vùng chờ Mua lý tưởng (C2 lành mạnh) |
+| Downtrend mạnh | RSI < 30 | Không mua. Chờ C2 quay về EMA 34 + RSI về 50–60 → chờ BOS vào lệnh → Bán |
+| Downtrend mạnh | RSI 50–60 | Vùng chờ Bán lý tưởng (C2 lành mạnh) |
+| Sideway | RSI > 70 hoặc < 30 | Không giao dịch theo hệ thống — chỉ dùng để quan sát |
 
-> **Nguyên tắc vàng:** Trong trend, RSI > 70 hoặc < 30 là xác nhận trend mạnh — không phải tín hiệu đảo chiều. Chỉ trong sideway, RSI mới dùng để bắt đỉnh/đáy.
+> **Nguyên tắc vàng:** Trong trend, RSI > 70 hoặc < 30 là xác nhận trend mạnh — không phải tín hiệu đảo chiều. Trong sideway, hệ thống không giao dịch (chương 4), nên RSI không được dùng để bắt đỉnh/đáy.
 
 ### 4. Điều chỉnh ngưỡng theo bối cảnh
 
@@ -124,12 +123,13 @@ Bạn không cần tính RSI bằng tay. Chỉ cần hiểu:
 ### 5. RSI kết hợp với cấu trúc
 
 RSI chỉ đáng tin khi kết hợp với cấu trúc:
+
 - RSI > 70 + giá tại vùng cản mạnh + CHoCH → cảnh báo đảo chiều.
 - RSI > 70 + giá trên EMA 34/89 + chưa có CHoCH → trend còn mạnh, không bán.
 - RSI < 30 + giá tại vùng cản mạnh + CHoCH → cảnh báo đảo chiều.
 - RSI < 30 + giá dưới EMA 34/89 + chưa có CHoCH → trend còn mạnh, không mua.
 
-## III. Sự Phân Kỳ Của Giá và RSI
+## III. Sự Phân Kỳ Giữa Giá Và RSI
 
 ### 1. Định nghĩa
 
@@ -143,6 +143,7 @@ Phân kỳ (Divergence) xảy ra khi giá và RSI đi ngược chiều nhau. Đ�
 **Ý nghĩa:** Giá vẫn tăng nhưng động lượng yếu đi → cảnh báo đảo chiều giảm.
 
 ![Bearish Divergence](/img/blog/bearish_divergence_price_vs_rsi_v3.svg)
+
 ### 3. Phân kỳ tăng (Bullish Divergence)
 
 - Giá tạo Lower Low (đáy thấp hơn).
@@ -156,43 +157,39 @@ Phân kỳ (Divergence) xảy ra khi giá và RSI đi ngược chiều nhau. Đ�
 
 | Loại | Giá | RSI | Ý nghĩa | Hành động |
 | :--- | :--- | :--- | :--- | :--- |
-| Phân kỳ giảm (Bearish) | Higher High | Lower High | Cảnh báo đảo chiều giảm | Chờ CHoCH xác nhận → Bán |
-| Phân kỳ tăng (Bullish) | Lower Low | Higher Low | Cảnh báo đảo chiều tăng | Chờ CHoCH xác nhận → Mua |
+| Phân kỳ giảm (Bearish) | Higher High | Lower High | Cảnh báo đảo chiều giảm | Chờ CHoCH + BOS xu hướng mới (giảm) → Bán |
+| Phân kỳ tăng (Bullish) | Lower Low | Higher Low | Cảnh báo đảo chiều tăng | Chờ CHoCH + BOS xu hướng mới (tăng) → Mua |
 
 ## IV. Trader Nên Làm Gì Khi Phân Kỳ Xuất Hiện?
 
-### 1. Khi phân kỳ xuất hiện
+### 1. Ba bước xử lý
 
 **Bước 1: Không vào lệnh ngay.**
+
 Phân kỳ là cảnh báo, không phải xác nhận. Vào lệnh ngay khi thấy phân kỳ = đoán đỉnh/đáy.
 
 **Bước 2: Chờ xác nhận cấu trúc.**
+
 - Chờ CHoCH (giá phá đáy/đỉnh gần nhất theo hướng đảo chiều).
-- Chờ BOS theo hướng mới.
+- Chờ BOS xu hướng mới — giá phá đỉnh/đáy của cấu trúc 1-2-1 mới theo hướng đảo chiều.
 - Chỉ vào lệnh sau khi có xác nhận (cấu trúc 1-2-1 mới).
 
 **Bước 3: Vào lệnh và quản lý.**
-- Entry tại nến xác nhận BOS.
-- SL theo cấu trúc của xu thế cấp 2 mới.
+
+- Entry tại điểm phá vỡ của BOS xu hướng mới.
+- SL theo cấu trúc C2 mới (dưới đáy / trên đỉnh của nhịp điều chỉnh ngay trước BOS).
 - TP theo vùng cản đối diện hoặc Fib Extension.
 
-**Quy tắc:**
+### 2. Quy trình chi tiết
 
 | Bước | Hành động |
 | :--- | :--- |
 | 1 | Phát hiện phân kỳ → chuyển sang trạng thái quan sát |
 | 2 | Kiểm tra confluence (vùng cản, EMA, Fib) |
 | 3 | Chờ CHoCH xác nhận |
-| 4 | Chờ BOS theo hướng mới |
-| 5 | Vào lệnh tại nến close breakout hoặc chờ retest |
-| 6 | SL bên kia cấu trúc, TP theo vùng cản đối diện |
-
-### 2. Bảng tóm tắt hành động
-
-| Trạng thái RSI | Ý nghĩa | Hành động |
-| :--- | :--- | :--- |
-| Phân kỳ giảm | Cảnh báo đảo chiều giảm | Chờ BOS → Bán |
-| Phân kỳ tăng | Cảnh báo đảo chiều tăng | Chờ BOS → Mua |
+| 4 | Chờ BOS xu hướng mới |
+| 5 | Entry tại điểm phá vỡ của BOS xu hướng mới (nến đóng cửa xác nhận) |
+| 6 | SL bên kia C2 mới, TP theo vùng cản đối diện / Fib Extension |
 
 ## V. Kết Hợp RSI Với Các Công Cụ Khác
 
@@ -201,50 +198,49 @@ Phân kỳ là cảnh báo, không phải xác nhận. Vào lệnh ngay khi th�
 - Dùng Dow để xác định C1 và C2.
 - Dùng RSI để xác nhận động lượng của C1.
 - Nếu C1 đang mạnh + RSI xác nhận → trend tiếp diễn.
-- Nếu C1 yếu dần + RSI phân kỳ → cảnh báo đảo chiều hoặc fake breakout.
+- Nếu C1 yếu dần + RSI phân kỳ → cảnh báo đảo chiều hoặc false breakout.
 
 ### 2. RSI + Vùng cản
 
 - RSI phân kỳ tại vùng cản mạnh → xác suất đảo chiều cao.
-- RSI quá mua tại kháng cự mạnh → có thể bán (trong sideway).
-- RSI quá bán tại hỗ trợ mạnh → có thể mua (trong sideway).
+- RSI quá mua tại kháng cự mạnh / quá bán tại hỗ trợ mạnh → cảnh báo động lượng, chờ CHoCH + BOS xu hướng mới trước khi hành động.
 
 ### 3. RSI + EMA 34/89
 
-- RSI về 40–50 trong uptrend + C2 quay về EMA 34 → vùng Mua lý tưởng.
-- RSI về 50–60 trong downtrend + C2 quay về EMA 34 → vùng Bán lý tưởng.
+- RSI về 40–50 trong uptrend + C2 quay về EMA 34 → vùng chờ Mua lý tưởng.
+- RSI về 50–60 trong downtrend + C2 quay về EMA 34 → vùng chờ Bán lý tưởng.
 - RSI phân kỳ + giá phá EMA 89 → cảnh báo đảo chiều mạnh.
 
 ### 4. RSI + Fibonacci
 
-- RSI về 40–50 + C2 quay về Fib 38.2–50% → yếu tố mạnh.
+- RSI về 40–50 (uptrend) + C2 quay về Fib 38.2–50% → confluence mạnh.
 - RSI phân kỳ + C2 quay về Fib 78.6% → cảnh báo cấu trúc có thể thất bại.
 
-### 5. Bảng kết hợp
+### 5. Bảng confluence
 
-| Yếu tố | Độ mạnh | Hành động |
+| Confluence | Độ mạnh | Hành động |
 | :--- | :--- | :--- |
 | RSI đứng một mình | Yếu | Bỏ qua |
-| RSI + vùng cản | Trung bình | Chờ xác nhận |
-| RSI + vùng cản + EMA 34 | Mạnh | Chờ xác nhận |
-| RSI + vùng cản + EMA 34 + Fib | Rất mạnh | Chờ xác nhận |
-| RSI phân kỳ + CHoCH + vùng cản mạnh | Rất mạnh | Chờ xác nhận |
+| RSI + vùng cản | Trung bình | Chờ BOS vào lệnh |
+| RSI + vùng cản + EMA 34 | Mạnh | Chờ BOS vào lệnh |
+| RSI + vùng cản + EMA 34 + Fib | Rất mạnh | Chờ BOS vào lệnh |
+| RSI phân kỳ + CHoCH + vùng cản mạnh | Rất mạnh | Chờ BOS xu hướng mới |
 
-## VI. Lỗi Thường Gặp 
+## VI. Lỗi Thường Gặp
 
 1. Bán khi RSI > 70 trong uptrend mạnh — bán ngược trend, lỗ nặng.
 2. Mua khi RSI < 30 trong downtrend mạnh — mua ngược trend, lỗ nặng.
-3. Vào lệnh ngay khi thấy phân kỳ — chưa có CHoCH xác nhận, dính false signal.
+3. Vào lệnh ngay khi thấy phân kỳ — chưa có CHoCH xác nhận, dính tín hiệu giả.
 4. Dùng RSI trên M1 — quá nhiễu, không đáng tin.
 5. Dùng RSI đứng một mình — không kết hợp vùng cản, EMA, cấu trúc.
-6. Không chờ nến xác nhận — dính fakeout.
+6. Không chờ nến đóng cửa xác nhận — dính fakeout.
 7. Phân kỳ xuất hiện nhưng không kiểm tra confluence — phân kỳ yếu, không đáng giao dịch.
-8. Cố giao dịch khi RSI ở vùng trung tính — không có tín hiệu rõ ràng.
-
+8. Cố giao dịch khi RSI ở vùng trung tính mà không có cấu trúc rõ ràng.
 
 ## VII. Tóm Tắt Chương
-RSI không cho bạn biết giá sẽ đi đâu. Nó cho bạn biết động lượng đang mạnh lên hay yếu đi. Phân kỳ là cảnh báo — không phải tín hiệu. Nhiệm vụ của bạn là kết hợp RSI với cấu trúc, vùng cản, và EMA để tìm ra xác suất. Entry luôn là BOS. SL luôn theo cấu trúc BOS.
+
+> RSI không cho bạn biết giá sẽ đi đâu. Nó cho bạn biết động lượng đang mạnh lên hay yếu đi. Phân kỳ là cảnh báo — không phải tín hiệu. Nhiệm vụ của bạn là kết hợp RSI với cấu trúc, vùng cản và EMA để tìm ra xác suất. Entry luôn cần BOS xác nhận. SL luôn theo cấu trúc.
 
 ---
 
-**Chuyển chương:** Sau khi nắm vững RSI và phân kỳ, chương tiếp theo sẽ đi vào **Hệ thống giao dịch hoàn chỉnh** — nơi tất cả các công cụ đã học (vùng cản, Dow, Fibonacci, EMA, RSI) được tích hợp thành một hệ thống giao dịch hoàn chỉnh.
+**Chuyển chương:** Sau khi nắm vững RSI và phân kỳ, chương tiếp theo sẽ đi vào **Hệ thống giao dịch hoàn chỉnh** — nơi tất cả các công cụ đã học (vùng cản, Dow, Fibonacci, EMA, RSI) được tích hợp thành một quy trình thống nhất.
