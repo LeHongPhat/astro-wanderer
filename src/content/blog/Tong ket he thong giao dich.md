@@ -50,7 +50,7 @@ Toàn bộ hệ thống xoay quanh 3 phương pháp, chọn theo trạng thái t
 
 **Khi nào áp dụng:**
 
-- RSI đang ở vùng trung tính (30–70), hoặc vừa vượt 70/30 nhưng chưa duy trì lâu.
+- RSI đang ở vùng trung tính (40–60).
 - Hai đường EMA 34/89 nằm gần nhau, giá gần 2 đường EMA — thị trường đang tích lũy, chuẩn bị bùng nổ.
 - Giá phá vỡ vùng cản quan trọng — đồng thời là BOS xu hướng (phá đỉnh/đáy C1 cũ trên H1/H4).
 
@@ -67,8 +67,8 @@ Toàn bộ hệ thống xoay quanh 3 phương pháp, chọn theo trạng thái t
 | :--- | :--- |
 | **Entry** | Tại lần retest đầu tiên vùng cản vừa phá (ưu tiên), hoặc tại nến đóng cửa phá cản (BOS xu hướng) |
 | **Stop-loss** | Dưới đáy C2 (uptrend) / trên đỉnh C2 (downtrend) — bên kia vùng cản vừa phá |
-| **Take-profit 1** | Vùng cản kế tiếp |
-| **Take-profit 2** | Fib Extension 1.618, 2.000 (2.618, 3.618 khi trend cực mạnh) |
+| **TP 1** | Vùng cản kế tiếp |
+| **TP 2** | Fib Extension 1.618, 2.000 (2.618, 3.618 khi trend cực mạnh) |
 
 **Quản lý lệnh:**
 
@@ -98,8 +98,8 @@ Toàn bộ hệ thống xoay quanh 3 phương pháp, chọn theo trạng thái t
 | :--- | :--- |
 | **Entry** | Tại điểm phá vỡ của BOS vào lệnh (nến đóng cửa phá đỉnh/đáy nhỏ cuối cùng của C2) |
 | **Stop-loss** | Dưới đáy / trên đỉnh của cấu trúc BOS vào lệnh (chương 4) |
-| **Take-profit 1** | Đỉnh/đáy C1 cũ |
-| **Take-profit 2** | Fib Extension 1.618 và các mốc cao hơn |
+| **TP1** | Đỉnh/đáy C1 cũ |
+| **TP2** | Fib Extension 1.618 và các mốc cao hơn |
 
 **Quản lý lệnh:**
 
@@ -111,7 +111,7 @@ Toàn bộ hệ thống xoay quanh 3 phương pháp, chọn theo trạng thái t
 
 **Khi nào áp dụng:**
 
-- RSI xuất hiện phân kỳ tại vùng cản mạnh — cảnh báo động lượng suy yếu.
+- RSI xuất hiện phân kỳ  — cảnh báo động lượng suy yếu.
 - Cấu trúc C1 hiện tại có dấu hiệu kết thúc.
 - Giá bắt đầu hình thành cấu trúc đảo chiều.
 
@@ -138,8 +138,8 @@ Toàn bộ hệ thống xoay quanh 3 phương pháp, chọn theo trạng thái t
 | :--- | :--- |
 | **Entry** | Tại điểm phá vỡ của BOS xu hướng mới — khi đỉnh/đáy mới bị phá vỡ |
 | **Stop-loss** | Theo cấu trúc C2 mới — dưới đáy / trên đỉnh của nhịp điều chỉnh ngay trước BOS xu hướng mới |
-| **Take-profit 1** | Vùng cản đối diện theo hướng mới |
-| **Take-profit 2** | Fib Extension 1.618, 2.000 |
+| **TP1** | Vùng cản đối diện theo hướng mới |
+| **TP2** | Fib Extension 1.618, 2.000 |
 
 **Quản lý lệnh:**
 
@@ -158,7 +158,7 @@ Toàn bộ hệ thống xoay quanh 3 phương pháp, chọn theo trạng thái t
 
 | Tiêu chí | 1. Breakout | 2. Chờ kết thúc C2 | 3. Đảo chiều cấu trúc |
 | :--- | :--- | :--- | :--- |
-| **Trạng thái RSI** | 30–70 | > 70 hoặc < 30 | Phân kỳ tại vùng cản mạnh |
+| **Trạng thái RSI** | 40–60 | > 70 hoặc < 30 | Phân kỳ tại vùng cản mạnh |
 | **Trạng thái EMA** | Hai EMA gần nhau, giá gần EMA | Giá rời xa EMA rồi hội tụ trở lại | — |
 | **Bản chất** | Động lượng còn dư địa — tích lũy chuẩn bị bùng nổ | Động lượng đã cạn — chờ C2 kết thúc | Cấu trúc C1 đã đảo chiều |
 | **Loại BOS dùng** | BOS xu hướng (H1/H4) | BOS vào lệnh (M5/M15) | BOS xu hướng mới |
