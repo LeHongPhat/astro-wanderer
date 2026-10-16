@@ -2,13 +2,14 @@
 title: "Chương 1: Kháng Cự & Hỗ Trợ (Support & Resistance)"
 subtitle: "Nền tảng vùng cản trong phân tích kỹ thuật"
 date: "2026-09-28"
-order: 2  
+order: 2
 tags: ["trading"]
 author: "Phat Le"
 category: "trading"
-description: "Chương 1 cung cấp kiến thức nền tảng về Kháng cự và Hỗ trợ (Vùng cản), cách xác định, đánh giá chất lượng và các kịch bản giao dịch intraday hiệu quả."
+description: "Chương 1 cung cấp kiến thức nền tảng về Kháng cự và Hỗ trợ (vùng cản): cách xác định, đánh giá chất lượng và hai kịch bản phản ứng của giá tại vùng cản trong giao dịch intraday."
 draft: false
 ---
+
 ## Key Takeaways — Bạn sẽ nhận được gì sau chương này?
 
 Sau khi đọc và nắm vững chương 1, bạn sẽ:
@@ -17,31 +18,39 @@ Sau khi đọc và nắm vững chương 1, bạn sẽ:
 | :--- | :--- | :--- |
 | 1 | Hiểu bản chất của Kháng cự – Hỗ trợ, và vì sao gọi là "vùng cản" | Tư duy đúng ngay từ đầu — không bắt đỉnh/đáy |
 | 2 | Nắm được tâm lý thị trường đằng sau vùng cản | Hiểu vì sao giá phản ứng tại một vùng — không còn mê tín |
-| 3 | Biết 4 phương pháp xác định vùng cản: ngang, trendline, động (MA/EMA), tâm lý | Xác định được vùng cản trên bất kỳ chart nào |
-| 4 | Biết cách đánh giá chất lượng vùng cản | Biết vùng nào đáng giao dịch, vùng nào nên bỏ qua |
+| 3 | Biết 4 phương pháp xác định vùng cản: ngang, trendline, động (MA/EMA), mức giá tâm lý | Xác định được vùng cản trên bất kỳ chart nào |
+| 4 | Biết cách đánh giá chất lượng vùng cản (checklist 5 tiêu chí) | Biết vùng nào đáng giao dịch, vùng nào nên bỏ qua |
 | 5 | Hiểu nguyên tắc Đảo chiều vai trò (Role Reversal) | Nhận diện cơ hội khi Kháng cự thành Hỗ trợ và ngược lại |
-| 6 | Nắm 2 kịch bản giao dịch tại vùng cản: Bounce và Breakout | Chuẩn bị cho cả hai — để thị trường xác nhận |
+| 6 | Nắm 2 kịch bản phản ứng tại vùng cản: Bounce và Breakout | Chuẩn bị cho cả hai — để thị trường xác nhận |
 
-> **Kết quả cốt lõi:** Sau chương này, bạn có khả năng tự xác định vùng cản chất lượng cao trên biểu đồ phân tích kỹ thuật — nền tảng cho mọi quyết định vào lệnh ở các chương sau.
+> **Kết quả cốt lõi:** Sau chương này, bạn có khả năng tự xác định vùng cản chất lượng cao trên biểu đồ — nền tảng cho mọi quyết định vào lệnh ở các chương sau.
+
+## Mở Đầu
+
+Mọi công cụ trong giáo trình này — Lý thuyết Dow, Fibonacci, EMA 34/89, RSI — đều xoay quanh một câu hỏi: giá có khả năng phản ứng ở đâu? Vùng cản là câu trả lời đầu tiên và quan trọng nhất. Chương này xây nền móng đó.
+
+*Gặp thuật ngữ lạ (BOS, CHoCH, R:R…)? Tra cứu ở Chương 0 — Thuật Ngữ Và Quy Ước.*
 
 ## I. Định Nghĩa Cơ Bản
 
-Kháng cự (Resistance) và Hỗ trợ (Support) là hai khái niệm cơ bản nhất trong Phân tích Kỹ thuật (TA). Chúng hình thành dựa trên sự tập trung của Cung và Cầu (Supply and Demand) tại các mức giá cụ thể.
+Kháng cự (Resistance) và Hỗ trợ (Support) là hai khái niệm cơ bản nhất trong Phân tích Kỹ thuật (Technical Analysis — TA). Chúng hình thành dựa trên sự tập trung của Cung và Cầu (Supply and Demand) tại các mức giá cụ thể.
 
 | Khái niệm | Bản chất | Vai trò trong thị trường |
 | :--- | :--- | :--- |
-| **Hỗ trợ (Support)** | Mức/vùng giá mà tại đó Cầu (lực mua) tập trung đủ mạnh để áp đảo Cung (lực bán) | "Sàn" giá, ngăn xu hướng giảm tiếp diễn |
-| **Kháng cự (Resistance)** | Mức/vùng giá mà tại đó Cung (lực bán) tập trung đủ mạnh để áp đảo Cầu (lực mua) | "Trần" giá, ngăn xu hướng tăng tiếp diễn |
+| **Hỗ trợ (Support)** | Vùng giá mà tại đó Cầu (lực mua) tập trung đủ mạnh để áp đảo Cung (lực bán) | "Sàn" giá, ngăn xu hướng giảm tiếp diễn |
+| **Kháng cự (Resistance)** | Vùng giá mà tại đó Cung (lực bán) tập trung đủ mạnh để áp đảo Cầu (lực mua) | "Trần" giá, ngăn xu hướng tăng tiếp diễn |
 
 > **Lưu ý quan trọng ngay từ đầu:**
-> Kháng cự – Hỗ trợ thường được gọi tắt là **CẢN**.
-> Cản phải được xem là **vùng giá**, không phải một con số cố định. Trader không nên cứng nhắc vẽ một đường ngang rồi coi đó là "đúng". Vì vậy trong giáo trình này, chúng ta dùng thống nhất thuật ngữ **vùng cản** hoặc **vùng KC – HT**.
+>
+> - Kháng cự – Hỗ trợ thường được gọi tắt là **cản**.
+> - Cản phải được xem là **vùng giá**, không phải một con số cố định. Trader không nên cứng nhắc vẽ một đường ngang rồi coi đó là "đúng".
+> - Vì vậy, trong giáo trình này chúng ta dùng thống nhất thuật ngữ **vùng cản**.
 
 ## II. Tâm Lý Thị Trường Đằng Sau Vùng Cản
 
 Vùng cản không phải là phép màu — nó hoạt động vì tâm lý đám đông:
 
-- **Self-fulfilling prophecy:** Rất nhiều người tham gia thị trường cùng quan sát một mức giá và thực hiện hành động tương tự (mua/bán/đặt stop), khiến vùng đó thực sự có phản ứng.
+- **Self-fulfilling prophecy (Lời tiên tri tự ứng nghiệm):** Rất nhiều người tham gia thị trường cùng quan sát một mức giá và thực hiện hành động tương tự (mua/bán/đặt stop), khiến vùng đó thực sự có phản ứng.
 - **Anchoring (Neo giữ tâm lý):** Trader có xu hướng gán ý nghĩa cho các mức giá đã từng xảy ra. Vùng cản cũ trở thành điểm tham chiếu cho quyết định mua bán trong tương lai.
 - **Price memory (Ký ức giá):** Một vùng mà giá từng phản ứng mạnh sẽ được nhiều trader ghi nhớ. Khi giá quay lại, phản ứng thường lặp lại — ít nhất trong lần test đầu.
 
@@ -54,157 +63,175 @@ Vùng cản không chỉ là các đường ngang cố định, mà còn là cá
 | # | Phương pháp | Loại | Độ tin cậy |
 | :--- | :--- | :--- | :--- |
 | 1 | Vùng cản ngang (Horizontal S/R) | Tĩnh | Cao |
-| 2 | Cản theo Trendline | Tĩnh | Trung bình – cao |
-| 3 | Cản động (MA, EMA) | Động | Trung bình – cao |
+| 2 | Trendline | Tĩnh | Trung bình – cao |
+| 3 | Cản động (MA/EMA) | Động | Trung bình – cao |
 | 4 | Mức giá tâm lý (Round Numbers) | Tĩnh | Trung bình |
 
 ### 1. Vùng cản ngang (Horizontal S/R)
 
-- Kháng cự được xây dựng từ các đỉnh trong quá khứ. 
+- Kháng cự được xây dựng từ các đỉnh trong quá khứ.
 - Hỗ trợ được xây dựng từ các đáy trong quá khứ.
 - Có giá trị cao khi giá đã phản ứng ít nhất 2 lần tại vùng đó.
 - Nên vẽ theo vùng (khoảng giá), không vẽ theo một đường kẻ ngang đơn lẻ.
 
 **Cách xác định:**
+
 1. Tìm các đỉnh/đáy rõ ràng trên chart.
-2. Nối các đỉnh với nhau hoặc các đáy với nhau nằm gần nhau thành một vùng (không phải một đường).
-3. Ưu tiên vùng được hình thành trên khung H1/H4/Daily.
+2. Gom các đỉnh (hoặc các đáy) nằm gần nhau thành một vùng — không phải một đường.
+3. Ưu tiên vùng được hình thành trên khung H1/H4/D1.
 
 > **Lưu ý intraday:** Vùng cản ngang là nền tảng — mọi phương pháp khác đều xoay quanh nó. Không có vùng cản ngang → các vùng động và mức tâm lý mất đi điểm neo.
 
-![Vùng Kháng cự và hỗ trợ ngang](/img/blog/horizontal_support_resistance_zones.svg)
+![Vùng kháng cự và hỗ trợ ngang](/img/blog/horizontal_support_resistance_zones.svg)
 
-### 2. Cản theo Trendline (Đường xu hướng)
+### 2. Trendline (Đường xu hướng)
 
 **2.1. Trendline là gì?**
-Trendline là đường **chéo** nối các đỉnh hoặc đáy liên tiếp của giá, dùng để mô tả hướng đi của xu hướng và đóng vai trò vùng cản động.
-- Trong uptrend: Trendline nối các đáy cao dần (Higher Lows) → đóng vai trò hỗ trợ.
-- Trong downtrend: Trendline nối các đỉnh thấp dần (Lower Highs) → đóng vai trò kháng cự.
+
+Trendline là đường **chéo** nối các đỉnh hoặc đáy liên tiếp của giá, dùng để mô tả hướng đi của xu hướng và đóng vai trò vùng cản.
+
+- Trong uptrend: trendline nối các đáy cao dần (Higher Low — HL) → đóng vai trò hỗ trợ.
+- Trong downtrend: trendline nối các đỉnh thấp dần (Lower High — LH) → đóng vai trò kháng cự.
 
 **2.2. Cách vẽ đúng**
+
 - **Trong uptrend:**
   1. Nối ít nhất 2 đáy cao dần.
   2. Kéo dài về phía trước.
   3. Điểm chạm thứ 3 xác nhận trendline có hiệu lực.
+
   ![Trendline uptrend](/img/blog/uptrend_trendline_higher_lows.svg)
 
 - **Trong downtrend:**
   1. Nối ít nhất 2 đỉnh thấp dần.
   2. Kéo dài về phía trước.
   3. Điểm chạm thứ 3 xác nhận trendline có hiệu lực.
+
   ![Trendline downtrend](/img/blog/downtrend_trendline_lower_highs.svg)
 
 > **Nguyên tắc:** Chọn cách vẽ nào cho nhiều điểm chạm nhất — đó là trendline có giá trị.
+>
 > **Lưu ý:** Phá trendline không phải tín hiệu đảo chiều. Nó chỉ là cảnh báo sớm. Cần xác nhận bằng CHoCH (chương 2) trước khi chuyển hướng giao dịch.
 
-**2.3. Lỗi thường gặp với Trendline**
+**2.3. Lỗi thường gặp với trendline**
+
 - Vẽ trendline qua quá ít điểm — chỉ 2 điểm chưa đủ xác nhận.
 - Vẽ trendline quá dốc — dễ bị phá, không đáng tin.
 - Ép trendline theo ý muốn — vẽ để khớp với quan điểm cá nhân.
 - Nhầm phá trendline với đảo chiều — chưa có CHoCH xác nhận.
-- Không kêt hợp nhiều yếu tố — trendline đứng một mình.
+- Không kết hợp nhiều yếu tố — trendline đứng một mình.
 
 *Nhắc lại: Trendline là công cụ chủ quan — mỗi trader có thể vẽ khác nhau. Vì vậy, trendline chỉ đáng tin khi trùng với vùng cản ngang, EMA, hoặc Fibonacci.*
 
-### 3. Cản động — MA, EMA
-** Cản động là gì?**
-- Là vùng cản thay đổi theo sự biến động giá của từng cây nến.
-- Các chỉ báo nào là cản động: các đường Moving Average (MA), dải bollinger band,...
+### 3. Cản động (MA/EMA)
 
-**Đường trung bình động (MA, EMA)**
+**Cản động là gì?**
+
+- Là vùng cản thay đổi theo biến động giá của từng cây nến.
+- Các công cụ tạo cản động: đường trung bình động (MA/EMA), dải Bollinger Bands…
+
+**Đường trung bình động (MA/EMA)**
+
 - MA/EMA là vùng cản chạy theo giá — di chuyển cùng xu hướng.
 - Đặc biệt hữu ích trong thị trường có xu hướng rõ ràng.
 - Trong uptrend: MA/EMA đóng vai trò hỗ trợ động.
 - Trong downtrend: MA/EMA đóng vai trò kháng cự động.
 
 **Trong giáo trình này:**
-- Chi tiết về MA/EMA sẽ được giới thiệu ở chương 4 — Moving Averages.
+
+- Chi tiết về MA/EMA được trình bày ở chương 4 — Đường Trung Bình Động.
 - Áp dụng cụ thể với EMA 34/89 — bộ đôi được dùng xuyên suốt giáo trình.
 
 > **Lưu ý:** MA/EMA chỉ hoạt động tốt khi thị trường có xu hướng. Trong sideway, giá cắt qua lại MA/EMA liên tục → tín hiệu nhiễu.
 
 ### 4. Mức giá tâm lý (Round Numbers)
 
-- Các mức số tròn: 100, 1000, 50,000… thường hoạt động như vùng cản mạnh.
-- **Nguyên nhân:** tâm lý con người (Psychological Anchor) và việc nhiều trader đặt lệnh tại đó.
-- Với intraday, các mức như .00, .50 của giá, hoặc các mốc tròn của chỉ số (ví dụ VN-Index 1,200) thường có phản ứng rõ.
+- Các mức số tròn (100; 1,000; 50,000…) thường hoạt động như vùng cản mạnh.
+- **Nguyên nhân:** tâm lý con người (psychological anchor) và việc nhiều trader đặt lệnh tại đó.
+- Với intraday, các mức như .00, .50 của giá, hoặc các mốc tròn của chỉ số thường có phản ứng rõ.
 
 **Ví dụ:**
-- XAUUSD: 3500, 4000, 5000.
-- BTCUSD: 50,000, 60,000, 70,000.
-- VN-Index: 1,500, 1,800, 2000.
+
+- XAUUSD: 3,500; 4,000; 5,000.
+- BTCUSD: 50,000; 60,000; 70,000.
+- VN-Index: 1,500; 1,800; 2,000.
 
 > **Lưu ý:** Round number không đứng một mình. Nó chỉ đáng tin khi trùng với vùng cản ngang, trendline, hoặc EMA.
 
-### 5. Khung thời gian (Time Frame)
+### 5. Khung thời gian (Timeframe)
 
-Vùng cản xác định trên khung lớn (Weekly / Daily / H4) có ý nghĩa và độ tin cậy cao hơn khung nhỏ (M5, M15).
-Trong intraday, nguyên tắc là: **xác định vùng cản trên khung lớn H1/H4, tìm kiếm cơ hội giao dịch trên các khung nhỏ M5/M15/M30.**
+Vùng cản xác định trên khung lớn (W1/D1/H4) có ý nghĩa và độ tin cậy cao hơn khung nhỏ (M5, M15).
 
-### Bảng tổng hợp 4 phương pháp xác định vùng cản
+Trong intraday, nguyên tắc là: **xác định vùng cản trên khung lớn H1/H4, tìm kiếm cơ hội giao dịch trên các khung nhỏ M5/M15.**
+
+### 6. Bảng tổng hợp 4 phương pháp xác định vùng cản
 
 | Phương pháp | Loại | Cách xác định | Độ tin cậy | Kết hợp với |
 | :--- | :--- | :--- | :--- | :--- |
-| Vùng cản ngang | Tĩnh | Nối swing high/low | Cao | Tất cả |
+| Vùng cản ngang | Tĩnh | Gom các swing high/low | Cao | Tất cả |
 | Trendline | Tĩnh | Nối đỉnh/đáy cao dần hoặc thấp dần | Trung bình – cao | Vùng cản ngang, EMA, Fib |
 | MA/EMA | Động | Đường trung bình giá | Trung bình – cao | Vùng cản ngang, Fib |
 | Round Numbers | Tĩnh | Mức số tròn | Trung bình | Vùng cản ngang, EMA |
 
-> **Nguyên tắc vàng:** Không có phương pháp nào đứng một mình. **Confluence** (nhiều phương pháp cùng chỉ về một vùng) là chìa khóa của xác suất.
+> **Nguyên tắc vàng:** Không có phương pháp nào đứng một mình. **Confluence** (hợp lưu — nhiều phương pháp cùng chỉ về một vùng) là chìa khóa của xác suất.
 
 ## IV. Đánh Giá Chất Lượng Vùng Cản
 
-Không phải vùng cản nào cũng đáng giao dịch. Trước khi vào lệnh tại một vùng, cần chấm điểm theo checklist sau:
+Không phải vùng cản nào cũng đáng giao dịch. Trước khi vào lệnh tại một vùng, cần chấm điểm theo checklist 5 tiêu chí sau:
 
 | Tiêu chí | Vùng mạnh | Vùng yếu |
 | :--- | :--- | :--- |
-| **Số lần phản ứng** | 2–3 lần, phản ứng rõ ràng | 1 lần, phản ứng yếu |
-| **Nến phản ứng** | Thân dài, rời vùng dứt khoát | Nến do dự, sideway, chồng chéo |
-| **Sự kết hợp nhiều yếu tố** | Trùng EMA / Fib / Trendline | Đứng một mình |
-| **Khung thời gian hình thành** | H1 / H4 / Daily | M1 / M5 |
-| **Bối cảnh xu hướng** | Cùng chiều xu hướng chính | Ngược xu hướng, sideway |
+| **1. Số lần phản ứng** | 2–3 lần, phản ứng rõ ràng | 1 lần, phản ứng yếu |
+| **2. Nến phản ứng** | Thân dài, rời vùng dứt khoát | Nến do dự, đi ngang, chồng chéo |
+| **3. Confluence** | Trùng EMA / Fib / trendline | Đứng một mình |
+| **4. Khung thời gian hình thành** | H1 / H4 / D1 | M1 / M5 |
+| **5. Bối cảnh xu hướng** | Cùng chiều xu hướng C1 | Ngược xu hướng, sideway |
 
-> **Nguyên tắc:** Chỉ giao dịch tại vùng cản đạt tối thiểu **3/5 tiêu chí**.
+> **Nguyên tắc:** Chỉ giao dịch tại vùng cản đạt tối thiểu **3/5 tiêu chí**. Checklist này được dùng lại ở chương 2 và chương 6.
 
 ## V. Đảo Chiều Vai Trò (Role Reversal)
 
 Một trong những nguyên tắc mạnh mẽ nhất của vùng cản:
-- Nếu **Kháng cự bị phá vỡ**, mức giá đó có xu hướng trở thành **Hỗ trợ mới** khi giá điều chỉnh trở lại.
-- Nếu **Hỗ trợ bị phá vỡ**, mức giá đó có xu hướng trở thành **Kháng cự mới** khi giá hồi phục.
+
+- Nếu **Kháng cự bị phá vỡ**, vùng giá đó có xu hướng trở thành **Hỗ trợ mới** khi giá điều chỉnh trở lại.
+- Nếu **Hỗ trợ bị phá vỡ**, vùng giá đó có xu hướng trở thành **Kháng cự mới** khi giá hồi phục.
 
 **Điều kiện để Role Reversal đáng tin:**
-- Breakout phải có close nến ngoài vùng (không chỉ wick).
+
+- Breakout phải có nến đóng cửa ngoài vùng (không chỉ râu nến).
 - Breakout nên đi kèm volume tăng.
 - Lần retest đầu tiên có xác suất giữ vai trò mới cao nhất.
 - Retest càng về sau, xác suất giữ càng giảm.
-![Sự đảo chiều vai trò của Kháng cự và hỗ trợ](/img/blog/role_reversal_resistance_to_support.svg)
 
-*Đây chính là cơ chế hình thành nên hệ thống Breakout & Retest ở chương 6.*
+![Sự đảo chiều vai trò của kháng cự và hỗ trợ](/img/blog/role_reversal_resistance_to_support.svg)
 
-## VI. Hai Kịch Bản Phản ứng tại vùng cản
+*Đây chính là cơ chế hình thành nên Phương pháp 1 — Breakout & Retest ở chương 6.*
+
+## VI. Hai Kịch Bản Phản Ứng Tại Vùng Cản
+
 Tại vùng cản, giá chỉ có 2 kịch bản: **Bounce** hoặc **Breakout**. Nhiệm vụ của trader không phải đoán trước, mà chuẩn bị cho cả hai và để thị trường xác nhận.
 
-### 6.1. Bounce — Giá tôn trọng vùng cản
+### 1. Bounce — Giá tôn trọng vùng cản
 
-Giá tôn trọng vùng cản, sau khi tiếp cận vùng cản thì đảo chiều.
+Giá tôn trọng vùng cản: sau khi tiếp cận vùng cản thì đảo chiều.
+
 ![Bounce](/img/blog/bounce_support_zone_built_by_two_touches_v2.svg)
 
-### 6.2. Breakout — Giá xuyên thủng vùng cản
+### 2. Breakout — Giá xuyên thủng vùng cản
 
 Giá phá vỡ vùng cản, tiếp tục xu hướng chính hoặc khởi đầu cho một xu hướng mới.
-![Breakout](/img/blog/breakout_support_zone_at_third_approach.svg)
 
+![Breakout](/img/blog/breakout_support_zone_at_third_approach.svg)
 
 **Phân biệt Breakout thật và False Breakout:**
 
 | Dấu hiệu | Breakout thật | False Breakout |
 | :--- | :--- | :--- |
-| **Close nến** | Ngoài vùng, dứt khoát | Trong vùng, wick dài |
+| **Nến đóng cửa** | Ngoài vùng, dứt khoát | Trong vùng, râu nến dài |
 | **Momentum** | Mạnh, liên tục | Yếu, do dự |
 | **Retest** | Giữ được vai trò mới | Quay lại vùng cũ |
 
-
-### 6.3. Tại sao ưu tiên Retest hơn việc chạy theo Breakout?
+### 3. Vì sao ưu tiên retest hơn chạy theo breakout?
 
 - R:R tốt hơn (SL gần hơn, entry tốt hơn).
 - Xác suất cao hơn nhờ Role Reversal đã được xác nhận.
@@ -214,21 +241,25 @@ Giá phá vỡ vùng cản, tiếp tục xu hướng chính hoặc khởi đầu
 ## VII. Vì Sao Gọi Là "Vùng Cản"?
 
 **1. Để xử lý đảo chiều vai trò một cách nhất quán**
+
 Khi Kháng cự bị phá, nó thành Hỗ trợ cho đà tăng. Khi Hỗ trợ bị phá, nó thành Kháng cự cho đà giảm. Nếu cứ gọi tên theo vai trò, trader sẽ phải liên tục đổi tên. Dùng thuật ngữ "cản" giúp tư duy xuyên suốt: cản là vùng giá có khả năng gây phản ứng, bất kể đang đóng vai trò gì.
 
 **2. Hạn chế tư duy bắt đỉnh bắt đáy**
+
 Lý thuyết "Kháng cự thì bán, Hỗ trợ thì mua" dễ tạo ra tư duy đỉnh–đáy cứng nhắc. Thực tế:
+
 - Trong một đà tăng, các mức kháng cự mới liên tục hình thành — bán ở kháng cự là bán ngược trend.
 - Trong một đà giảm, các mức hỗ trợ mới liên tục hình thành — mua ở hỗ trợ là mua ngược trend.
 - Kháng cự có thể thành hỗ trợ và ngược lại bất cứ lúc nào.
 
- ![Cản liên tục bị phá vỡ khi thị trường có xu hướng](/img/blog/new_resistance_uptrend_new_support_downtrend_v3.svg)
+![Cản liên tục bị phá vỡ khi thị trường có xu hướng](/img/blog/new_resistance_uptrend_new_support_downtrend_v3.svg)
 
 Gọi là "cản" giúp trader không còn tư duy "chặn đầu" thị trường, mà chuyển sang tư duy "chờ phản ứng tại vùng".
 
 **3. Kết luận**
+
 - Phần lớn vùng cản giữ được trong lần test đầu tiên — đó là lý do bounce là kịch bản mặc định.
-- Nhưng một số ít bị phá — và khi bị phá kèm volume và close nến xác nhận, đó thường là khởi đầu của một xu hướng mới.
+- Nhưng một số ít bị phá — và khi bị phá kèm volume và nến đóng cửa xác nhận, đó thường là khởi đầu của một xu hướng mới.
 - Nhiệm vụ của trader không phải đoán trước, mà là chuẩn bị cho cả hai kịch bản và để thị trường xác nhận.
 
 ## VIII. Lỗi Thường Gặp
@@ -237,10 +268,14 @@ Gọi là "cản" giúp trader không còn tư duy "chặn đầu" thị trườ
 2. Vào lệnh ngay khi giá chạm vùng, không chờ nến xác nhận.
 3. Đuổi breakout không có volume xác nhận.
 4. Đặt SL giữa vùng cản → dễ bị quét.
-5. Không kết hợp nhiều yếu tố.
+5. Không kết hợp nhiều yếu tố (thiếu confluence).
 6. Cố bắt đỉnh/đáy tại mọi vùng cản, kể cả vùng yếu.
 7. Vẽ trendline quá dốc hoặc qua quá ít điểm chạm.
-8. Nhầm phá trendline với đảo chiều — chưa có CHoCH, BoS xác nhận.
+8. Nhầm phá trendline với đảo chiều — chưa có CHoCH và BOS xác nhận.
+
+## IX. Tóm Tắt Chương
+
+> Vùng cản là vùng giá, không phải một đường kẻ. Nó hoạt động vì tâm lý đám đông, chỉ đáng tin khi đạt tối thiểu 3/5 tiêu chí chất lượng và có confluence. Tại vùng cản chỉ có hai kịch bản — Bounce hoặc Breakout — và trader chuẩn bị cho cả hai, để thị trường xác nhận.
 
 ---
 
