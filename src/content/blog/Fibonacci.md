@@ -21,7 +21,7 @@ Sau khi đọc và nắm vững chương 3, bạn sẽ:
 | 3 | Biết Fib Retracement là gì và dùng để làm gì | Đo mức thoái lui của C2 so với C1 — xác định vùng C2 có thể kết thúc |
 | 4 | Biết Fib Extension là gì và dùng để làm gì | Xác định vùng chốt lời khi không còn vùng cản phía trước |
 | 5 | Biết cách vẽ Fib đúng trong uptrend và downtrend | Không vẽ sai chiều, không vẽ trên khung quá nhỏ |
-| 6 | Hiểu ứng dụng của từng mức Fib (38.2%, 50%, 61.8%, 78.6%, 1.618, 2.000) | Biết mức nào đáng chú ý, mức nào cảnh báo cấu trúc thất bại |
+| 6 | Hiểu ứng dụng của từng mức Fib (38.2%, 50%, 61.8%, 76.4%, 1.618, 2.000) | Biết mức nào đáng chú ý, mức nào cảnh báo cấu trúc thất bại |
 | 7 | Nắm nguyên tắc confluence — Fibonacci chỉ đáng tin khi trùng với công cụ khác | Kết hợp Fib với vùng cản, EMA, RSI, cấu trúc |
 | 8 | Hiểu quy trình kết hợp Retracement và Extension | Biết khi nào vẽ Retracement, khi nào vẽ Extension |
 | 9 | Nhận diện lỗi thường gặp khi dùng Fibonacci | Tránh dùng Fib đứng một mình, tránh vẽ Extension trước BOS xu hướng |
@@ -129,7 +129,7 @@ Nói cách khác, Fib Retracement trả lời câu hỏi:
 | 38.2% | Thoái lui nông — trend mạnh | Vùng đáng chú ý đầu tiên |
 | 50.0% | Thoái lui trung bình | Vùng cân bằng |
 | 61.8% | Thoái lui sâu — tỷ lệ vàng | Vùng đáng chú ý cuối cùng còn hợp lệ |
-| 78.6% | Thoái lui rất sâu — cảnh báo | Cấu trúc có thể thất bại |
+| 76.4% | Thoái lui rất sâu — cảnh báo | Cấu trúc có thể thất bại |
 | 100% | Phá điểm khởi đầu C1 | Cấu trúc thất bại — đảo chiều |
 
 **Vì sao 38.2%, 50%, 61.8% quan trọng nhất?**
@@ -137,7 +137,7 @@ Nói cách khác, Fib Retracement trả lời câu hỏi:
 - Đây là vùng mà phần lớn các nhịp điều chỉnh lành mạnh kết thúc.
 - Nếu C2 thoái lui ít hơn 38.2% → C2 quá nông, có thể chưa kết thúc.
 - Nếu C2 thoái lui nhiều hơn 61.8% → C2 sâu, trend yếu hơn.
-- Nếu C2 thoái lui hơn 78.6% → cấu trúc có thể thất bại (Failure of Structure — chương 2).
+- Nếu C2 thoái lui hơn 76.4% → cấu trúc có thể thất bại (Failure of Structure — chương 2).
 
 ### 3. Cách vẽ đúng
 
@@ -146,14 +146,14 @@ Nói cách khác, Fib Retracement trả lời câu hỏi:
 1. Xác định điểm khởi đầu C1 (swing low).
 2. Xác định điểm kết thúc C1 (swing high).
 3. Kéo Fib từ low → high.
-4. Các mức thoái lui xuất hiện từ trên xuống: 23.6%, 38.2%, 50%, 61.8%, 78.6%.
+4. Các mức thoái lui xuất hiện từ trên xuống: 23.6%, 38.2%, 50%, 61.8%, 76.4%%.
 
 **Trong downtrend (C1 giảm, C2 tăng):**
 
 1. Xác định điểm khởi đầu C1 (swing high).
 2. Xác định điểm kết thúc C1 (swing low).
 3. Kéo Fib từ high → low.
-4. Các mức thoái lui xuất hiện từ dưới lên: 23.6%, 38.2%, 50%, 61.8%, 78.6%.
+4. Các mức thoái lui xuất hiện từ dưới lên: 23.6%, 38.2%, 50%, 61.8%, 76.4%%.
 
 > **Lưu ý intraday:** Vẽ Fib trên khung H1 hoặc M15 để xác định vùng. Không vẽ Fib trên M1 — quá nhiễu, không đáng tin.
 
@@ -165,7 +165,7 @@ Fib Retracement **không phải là công cụ vào lệnh**. Nó là công cụ
 
 - Xác định vùng C2 có thể kết thúc (38.2–61.8%).
 - Đo lường sức mạnh của trend: C2 thoái lui nông (38.2%) → trend mạnh; C2 thoái lui sâu (61.8%) → trend yếu hơn.
-- Cảnh báo cấu trúc thất bại: C2 thoái lui > 78.6% → cấu trúc có thể đảo chiều.
+- Cảnh báo cấu trúc thất bại: C2 thoái lui > 76.4%% → cấu trúc có thể đảo chiều.
 
 **Kết hợp với các công cụ khác:**
 
@@ -265,7 +265,7 @@ Trong một xu hướng mạnh, sau khi phá đỉnh cũ (BOS xu hướng), giá
 
 ## V. Tóm Tắt Chương
 
-> Fibonacci không cho bạn biết giá sẽ đi đâu. Nó cho bạn biết những vùng giá nào đáng chú ý: Retracement 38.2–61.8% là vùng C2 có thể kết thúc, trên 78.6% là cảnh báo cấu trúc thất bại; Extension 1.618–2.000 là vùng chốt lời sau BOS xu hướng. Nhiệm vụ của bạn là kết hợp Fibonacci với vùng cản, EMA và cấu trúc để tìm ra xác suất.
+> Fibonacci không cho bạn biết giá sẽ đi đâu. Nó cho bạn biết những vùng giá nào đáng chú ý: Retracement 38.2–61.8% là vùng C2 có thể kết thúc, trên 76.4%% là cảnh báo cấu trúc thất bại; Extension 1.618–2.000 là vùng chốt lời sau BOS xu hướng. Nhiệm vụ của bạn là kết hợp Fibonacci với vùng cản, EMA và cấu trúc để tìm ra xác suất.
 
 ---
 

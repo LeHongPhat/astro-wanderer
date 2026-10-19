@@ -89,7 +89,7 @@ Không phải mọi nhịp tăng đều là C1. Một C1 chỉ hợp lệ khi:
 Một nhịp điều chỉnh chỉ còn được coi là C2 khi:
 
 1. Không phá vỡ điểm khởi đầu của C1.
-2. Thoái lui không quá 78.6% của C1 (chi tiết ở chương 3 — Fibonacci).
+2. Thoái lui không quá 76.4% của C1 (chi tiết ở chương 3 — Fibonacci).
 3. Không tạo cấu trúc đảo chiều (CHoCH — xem mục III.2).
 
 Nếu vi phạm bất kỳ điều kiện nào → cấu trúc thất bại, không còn là C2. Lúc này cần đứng ngoài và chờ cấu trúc mới hình thành.
@@ -198,7 +198,7 @@ Cấu trúc thất bại xảy ra khi nhịp điều chỉnh C2 đi quá sâu, p
 
 **Dấu hiệu:**
 
-- C2 thoái lui > 78.6% của C1 (chi tiết ở chương 3 — Fibonacci).
+- C2 thoái lui > 76.4% của C1 (chi tiết ở chương 3 — Fibonacci).
 - C2 phá vỡ điểm khởi đầu của C1.
 - Xuất hiện CHoCH.
 
@@ -247,7 +247,7 @@ Khi C1 đang lao lên quá dốc, tuyệt đối không mua đuổi (đu đỉnh
 1. Không mua đuổi.
 2. Chờ C2 xuất hiện — thị trường luôn có 2 xu hướng, nên C2 gần như luôn xuất hiện.
 3. Nếu C2 không đến và giá tiếp tục chạy → đứng ngoài. Cơ hội luôn có, vốn thì không.
-4. Nếu C2 đến nhưng quá sâu (> 78.6%) → cấu trúc có thể thất bại; nếu giá tăng lại, nhiều khả năng sẽ không phá được đỉnh C1 trước đó.
+4. Nếu C2 đến nhưng quá sâu (>76.4%) → cấu trúc có thể thất bại; nếu giá tăng lại, nhiều khả năng sẽ không phá được đỉnh C1 trước đó.
 5. Nếu C2 thoái lui quá 100% C1 và tạo CHoCH → cấu trúc đã đảo chiều. Đứng ngoài.
 
 ## V. Liên Kết Với Vùng Cản (Chương 1)
@@ -273,7 +273,7 @@ Nếu vùng cản yếu → xác suất false breakout cao → nên bỏ qua ho�
 
 ## VII. Tóm Tắt Chương
 
-> Thị trường luôn có C1 và C2 — chỉ giao dịch thuận C1. BOS xu hướng xác nhận C1 tiếp diễn; BOS vào lệnh trên khung nhỏ xác nhận C2 đã kết thúc; CHoCH cảnh báo đảo chiều nhưng chưa phải tín hiệu vào lệnh. C2 của khung lớn là một xu hướng hoàn chỉnh trên khung nhỏ. Khi C2 vượt 78.6% hoặc phá điểm khởi đầu C1, cấu trúc đã thất bại — đứng ngoài và chờ cấu trúc mới.
+> Thị trường luôn có C1 và C2 — chỉ giao dịch thuận C1. BOS xu hướng xác nhận C1 tiếp diễn; BOS vào lệnh trên khung nhỏ xác nhận C2 đã kết thúc; CHoCH cảnh báo đảo chiều nhưng chưa phải tín hiệu vào lệnh. C2 của khung lớn là một xu hướng hoàn chỉnh trên khung nhỏ. Khi C2 vượt 76.4% và phá điểm khởi đầu C1, cấu trúc đã thất bại — đứng ngoài và chờ cấu trúc mới.
 
 ---
 
