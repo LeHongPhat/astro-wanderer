@@ -159,7 +159,7 @@ CHoCH (Change of Character) xảy ra khi giá phá đỉnh/đáy **ngược chi�
 
 Câu trả lời: cả hai đều đúng, vì cấu trúc thị trường **lồng vào nhau**.
 
-> **Quy tắc cốt lõi:** C2 của khung lớn chính là một xu hướng hoàn chỉnh trên khung nhỏ.
+> **Quy tắc cốt lõi:** C2 của khung lớn có thể là một xu hướng hoàn chỉnh trên khung nhỏ.
 
 **Ví dụ trong uptrend H1:**
 
@@ -167,15 +167,15 @@ Câu trả lời: cả hai đều đúng, vì cấu trúc thị trường **lồ
 Khung H1:   C1 tăng ──────────►  C2 giảm  ──────────►  C1 tăng mới
                                     │
                                     ▼  (phóng to nhịp C2 này xuống M5)
-Khung M5:   downtrend nhỏ: LH → LL → LH → LL → giá phá LH cuối cùng
+Khung M5/M15:   downtrend nhỏ: H → LH → LL 
                                                       │
-                                     CHoCH trên M5 = BOS vào lệnh trên H1
+                                    
 ```
 
 - Trên H1, nhịp giảm là **C2** — một nhịp điều chỉnh bình thường trong uptrend.
-- Trên M5, chính nhịp giảm đó lại là một **downtrend nhỏ** đầy đủ, với các đỉnh thấp dần (LH) và đáy thấp dần (LL).
-- Khi C2 của H1 kết thúc, downtrend nhỏ trên M5 sẽ bị phá: giá phá **Lower High cuối cùng** → trên M5, đó là một **CHoCH**.
-- Cú phá đó chính là **BOS vào lệnh**: nó vừa kết thúc downtrend nhỏ trên M5, vừa là cú phá theo hướng C1 của H1.
+- Trên M5/M15, chính nhịp giảm đó lại là một **downtrend nhỏ** đầy đủ, với các đỉnh thấp dần (LH) và đáy thấp dần (LL).
+- Khi C2 của H1 kết thúc, downtrend nhỏ trên M5/M15 sẽ bị phá: giá phá **Lower High cuối cùng** → trên M5/M15, đó là một **CHoCH**.
+
 
 **Cách đọc đúng khi giao dịch:**
 
@@ -184,11 +184,11 @@ Khung M5:   downtrend nhỏ: LH → LL → LH → LL → giá phá LH cuối cù
 | 1 | H1/H4 | Xu hướng C1 là gì? | Uptrend → chỉ tìm lệnh Mua |
 | 2 | H1/H4 | Giá có đang trong C2 không? Đã về vùng đáng chờ chưa? | C2 đang giảm về EMA 34 + Fib 50% |
 | 3 | M5/M15 | Xu hướng nhỏ của nhịp C2 là gì? | Downtrend nhỏ — **chưa** Mua |
-| 4 | M5/M15 | Xu hướng nhỏ đó đã bị phá chưa? | Giá phá LH cuối cùng → BOS vào lệnh → **Mua** |
+| 4 | M5/M15 | Xu hướng nhỏ đó đã bị phá chưa? | Giá phá LH cuối cùng → Tín hiệu vào lệnh → **Mua** |
 
 > **Lưu ý:**
 >
-> - Downtrend trên M5 trong lúc H1 đang uptrend **không phải** tín hiệu Bán. Đó chỉ là C2 của H1 nhìn ở khung nhỏ. Bán theo nó là giao dịch ngược C1.
+> - Downtrend trên M5 trong lúc H1 đang uptrend **không phải** tín hiệu Bán. Đó chỉ là C2 của H1, nếu chỉ nhìn ở khung nhỏ và bán theo nó là giao dịch ngược C1.
 > - Chỉ khi H1 xuất hiện CHoCH (mục III.2) thì xu hướng lớn mới thực sự có dấu hiệu đảo chiều.
 > - Các nhãn C1/C2 luôn gắn với một khung thời gian. Khi trao đổi, hãy nói rõ "C2 của H1" hay "C1 của M5".
 
@@ -221,7 +221,7 @@ Cấu trúc thất bại xảy ra khi nhịp điều chỉnh C2 đi quá sâu, p
 Không chỉ nhìn vào một khung thời gian.
 
 - Dùng khung lớn (H1/H4) để xác định xu hướng C1.
-- Khi khung lớn đang là uptrend và giá đang trong C2, chuyển xuống khung nhỏ (M5/M15) chờ BOS vào lệnh để kích hoạt lệnh Mua (ngược lại cho downtrend) — xem mục III.3.
+- Khi khung lớn đang là uptrend và giá đang trong C2, chuyển xuống khung nhỏ (M5/M15) chờ BOS để kích hoạt lệnh Mua (ngược lại cho downtrend) — xem mục III.3.
 - Sự đồng pha giữa 2 khung thời gian sẽ gia tăng tỷ lệ thắng đáng kể.
 
 ### 3. Quy tắc Entry / Stop-loss / Take-profit
@@ -231,7 +231,7 @@ Không chỉ nhìn vào một khung thời gian.
 | **BOS + Retest** | Tại nến xác nhận retest thành công | Dưới đáy C2 (uptrend) / trên đỉnh C2 (downtrend) | Vùng cản kế tiếp, R:R tối thiểu 1:1 |
 | **CHoCH** | Không vào lệnh — chờ BOS theo hướng mới | Bên kia cấu trúc mới | Vùng cản đối diện |
 
-*Các phương pháp vào lệnh chi tiết (tại BOS vào lệnh, tại retest sau BOS xu hướng) được hệ thống hóa ở chương 4–6.*
+*Các phương pháp vào lệnh chi tiết (tại BOS khung nhỏ, tại retest sau BOS xu hướng) được hệ thống hóa ở chương 4–6.*
 
 ### 4. Quản trị FOMO — Tiêu chí cụ thể
 
