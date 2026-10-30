@@ -120,7 +120,6 @@ Toàn bộ hệ thống xoay quanh 3 phương pháp, chọn theo trạng thái t
 1. **Phân kỳ xuất hiện:**
    - Phân kỳ giảm: giá tạo Higher High + RSI tạo Lower High → cảnh báo đảo chiều giảm.
    - Phân kỳ tăng: giá tạo Lower Low + RSI tạo Higher Low → cảnh báo đảo chiều tăng.
-   - Phân kỳ phải xuất hiện tại vùng cản mạnh (đạt tối thiểu 3/5 tiêu chí chất lượng ở chương 1).
 
 2. **CHoCH xuất hiện:**
    - Sau phân kỳ giảm: giá phá Higher Low gần nhất (tạo Lower Low) → CHoCH giảm.
